@@ -1,0 +1,44 @@
+name: Build and deploy
+
+on:
+    push:
+        branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
+
+permissions:
+    pages: write
+    id-token: write
+
+concurrency:
+    group: pages
+    cancel-in-progress: false
+
+jobs:
+    build:
+        runs-on: ubuntu-24.04
+        container:
+            image: docker.io/ubuntu:24.04
+
+        steps:
+            -   uses: actions/checkout@v4
+            -   name: Install dependencies
+                run: apt install https://github.com/o8x/camus/releases/download/v4.0.2/camus-4.0.2-linux6.17.0-1018-azure-x86_64.deb
+
+            -   name: Build
+                run: |
+                    export
+                    /usr/local/bin/camus -v
+                    /usr/local/bin/camus -d "$GITHUB_WORKSPACE"
+
+            -   name: Setup Pages
+                uses: actions/configure-pages@v5
+
+            -   name: Upload artifact
+                uses: actions/upload-pages-artifact@v3
+                with:
+                    path: './html'
+
+            -   name: Deploy to GitHub Pages
+                id: deployment
+                uses: actions/deploy-pages@v5
