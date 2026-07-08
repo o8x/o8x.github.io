@@ -7,15 +7,18 @@ camus:
     filename_case: keep
     toc_format: json
 
-toc:
-    -   dir_name: Jiye-Street
-        title: 极夜长街
-
 site:
     sitemap: true
     title: Alex
     url: https://stdout.com.cn
     repo: https://github.com/o8x
-    subtitle: What's past is prologue.
+    subtitle: What&aposs past is prologue.
     description: |
         在我所度过的整个这段荒诞的生活里，一种阴暗的气息穿越尚未到来的岁月，从遥远的未来向我扑来，这股气息所过之处，使别人向我建议的一切都变得毫无差别，未来的生活并不比我已往的生活更真实。他人的死，对母亲的爱，与我何干？既然只有一种命运选中了我，而成千上万的幸运的人却都同他一样自称是我的兄弟，那么，他所说的上帝，他们选择的生活，他们选中的命运，又都与我何干？他懂，他懂吗？大家都幸运，世上只有幸运的人。其他人也一样，有一天也要被判死刑。—— 阿尔贝·加缪《局外人》
+
+    toc:
+        -   dir_name: Jiye-Street
+            path: /novel/jiye-street
+            title: 极夜长街
+            description: |
+                人妖两族交界处有一条永远是黑夜的地下长街，被称为星垂市场。这里繁荣异常，人妖两族频繁进行货物与消息贸易，以及不为外人道的交易。
