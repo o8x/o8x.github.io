@@ -1,10 +1,7 @@
 ---
 display-name: 不使用 echo 向浏览器输出JSON
 date: 2018-09-06 12:03:41
-tags:
-
-- php
-
+tags: ["杂项"]
 ---
 
 在 php 中使用 return 返回 json 时，浏览器不会接收到任何数据，而使用 echo 则会导致程序不完整。所以我们可以使用 `php://output`

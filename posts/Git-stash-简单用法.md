@@ -1,8 +1,7 @@
 ---
 display-name: Git stash 简单用法
 date: 2019-04-03 15:05:08
-tags:
-- git
+tags: ["git"]
 ---
 
 *使用场景*

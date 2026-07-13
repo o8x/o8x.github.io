@@ -1,13 +1,7 @@
 ---
 display-name: Linux 安装自定义 systemctl 服务
 date: 2020-05-26 11:13:58
-categories:
-- Linux
-tags:
-
-- Linux
-- systemd
-
+tags: [ "Linux" ]
 ---
 
 > 实现对服务的更新和启动

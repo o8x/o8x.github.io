@@ -1,11 +1,7 @@
 ---
 display-name: 在 Debian 9.x(stretch) 下编译 Lede
 date: 2022-06-22 10:16:16
-tags:
-
-- OpenWRT
-- Linux
-
+tags: ["L"]
 ---
 
 ### 下载源码

@@ -1,11 +1,7 @@
 ---
 display-name: 基于idea 配置 laravel 单元测试
 date: 2018-04-10 21:15:02
-tags:
-
-- php
-- laravel
-
+tags: ["php"]
 ---
 
 #### php-cli

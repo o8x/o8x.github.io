@@ -1,12 +1,7 @@
 ---
 display-name: linux 添加和挂载新硬盘
 date: 2018-09-15 14:46:06
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ### 查看硬盘

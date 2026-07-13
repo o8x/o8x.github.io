@@ -1,10 +1,7 @@
 ---
 display-name: php自带的数组迭代函数
 date: 2019-03-13 16:20:27
-tags:
-
-- php
-
+tags: ["php"]
 ---
 
 ## php 自带了很多有用的数组函数，有些甚至可以避免使用 foreach

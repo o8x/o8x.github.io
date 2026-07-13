@@ -1,10 +1,7 @@
 ---
 display-name: YAF 框架的安装
 date: 2017-08-06 19:07:39
-tags:
-
-- php
-
+tags: ["php"]
 ---
 
 > Yaf 源码下载 ：http://pecl.php.net/package/yaf

@@ -1,8 +1,6 @@
 ---
 display-name: 利用存储过程循环清空mysql大表
 date: 2018-09-07 13:57:05
-tags:  
-- mysql
 ---
 
 ```sql

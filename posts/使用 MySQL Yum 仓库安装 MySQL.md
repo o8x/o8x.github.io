@@ -1,10 +1,7 @@
 ---
 display-name: 使用 MySQL Yum 仓库安装 MySQL
 date: 2022-03-18 20:55:10
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 # MySQL 官方教程（推荐）

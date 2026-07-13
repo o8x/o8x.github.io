@@ -2,12 +2,7 @@
 display-name: linux 下使用 rdesktop 链接 Windows
 draft: false
 date: 2020-06-18 10:38:23
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ### 安装

@@ -1,12 +1,7 @@
 ---
 display-name: linux xargs 命令
 date: 2018-05-06 21:04:58
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 > 利用管道把上一个命令的出参作为下一个命令的入参使用

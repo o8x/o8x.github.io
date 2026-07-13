@@ -1,14 +1,7 @@
 ---
 display-name: macos 本地安装 swoole  
 date: 2023-08-18 14:38:47
-categories:
-
-- php
-
-tags:
-
-- php
-
+tags: ["php"]
 ---
 
 ## 安装 php7.4

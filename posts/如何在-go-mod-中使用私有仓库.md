@@ -1,12 +1,7 @@
 ---
 display-name: 如何在 go mod 中使用私有仓库
 date: 2020-11-10 14:58:21
-categories:
-- Golang
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 
 ## 申请权限

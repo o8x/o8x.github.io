@@ -1,12 +1,6 @@
 ---
 display-name: 使用 egg.js 为 hexo 搭建后端，实现短链接服务
-draft: false
 date: 2020-05-27 20:27:49
-tags:
-
-- nodejs
-- egg.js
-
 ---
 
 ## 缘起

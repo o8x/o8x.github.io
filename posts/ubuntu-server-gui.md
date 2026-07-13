@@ -1,10 +1,7 @@
 ---
-display-name: Ubuntu Server 下安装/卸载 GUI
+display-name: Ubuntu Server 下安装卸载 GUI
 date: 2022-08-05 10:05:28
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 安装

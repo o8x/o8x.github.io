@@ -1,10 +1,7 @@
 ---
 display-name: php实现简单的socket服务器
 date: 2018-12-06 15:12:39
-tags:
-
-- php
-
+tags: ["php"]
 ---
 
 ### server

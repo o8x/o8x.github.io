@@ -1,11 +1,7 @@
 ---
 display-name: Django的数据库配置
 date: 2017-12-21 10:44:13
-categories:
-- Python
-tags:  
-- Python
-- Django
+tags: [ "Python", "Django" ]
 ---
 
 

@@ -1,10 +1,7 @@
 ---
 display-name: Nginx 负载均衡 与 反向代理
 date: 2017-08-14 16:46:02
-tags:
-
-- nginx
-
+tags: ["Linux"]
 ---
 
 ## 负载均衡

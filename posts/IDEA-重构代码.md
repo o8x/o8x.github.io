@@ -1,8 +1,7 @@
 ---
 display-name: IDEA 重构代码
 date: 2018-06-28 21:14:41
-tags:  
-- idea
+tags: ["杂项"]
 ---
 
 # IDEA 强大的代码块重构能力

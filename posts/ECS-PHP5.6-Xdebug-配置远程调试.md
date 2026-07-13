@@ -1,10 +1,7 @@
 ---
 display-name: ECS PHP5.6 Xdebug 配置远程调试
 date: 2017-10-01 10:53:30
-tags:  
-- Xdebug
-- Linux
-- php
+tags: ["php"]
 ---
 
 ### 核心代码

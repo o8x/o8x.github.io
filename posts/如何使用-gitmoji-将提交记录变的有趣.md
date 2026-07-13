@@ -1,10 +1,7 @@
 ---
 display-name: 如何使用 gitmoji 将提交记录变的有趣
 date: 2020-05-26 11:25:39
-tags:
-
-- git
-
+tags: ["git"]
 ---
 
 **以下为`gitmoji --list` 结果集翻译**

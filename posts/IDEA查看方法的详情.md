@@ -1,8 +1,7 @@
 ---
 display-name: IDEA查看方法的详情
 date: 2019-03-14 09:26:02
-tags:  
-- idea
+tags: ["杂项"]
 ---
 
 我们有时候会按 ctrl + shift + - 然后再按 ctrl + + 收起方法体．只看到方法名和注释

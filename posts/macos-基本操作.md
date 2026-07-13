@@ -1,12 +1,7 @@
 ---
 display-name: macos 基本操作
 date: 2020-05-26 11:29:39
-categories:
-- MacOS
-tags:
-
-- MacOS
-
+tags: ["杂项"]
 ---
 
 ## Finder

@@ -1,14 +1,7 @@
 ---
 display-name: Golang 中的 XOR 运算
 date: 2023-01-22 19:24:49
-categories:
-
-- Golang
-
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 
 ## 原理

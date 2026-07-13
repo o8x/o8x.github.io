@@ -1,11 +1,7 @@
 ---
 display-name: 简单的在 Linux 下配置网桥
 date: 2022-08-04 09:31:01
-categories:
-- Linux
-tags:
-
-- Linux
+tags: [ "Linux" ]
 ---
 
 ## 安装依赖

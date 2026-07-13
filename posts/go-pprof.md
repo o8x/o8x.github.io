@@ -1,14 +1,7 @@
 ---
 display-name: golang pprof  
-date: 2023-04-03 09:10:44  
-categories:
-
-- Golang
-
-tags:
-
-- golang
-
+date: 2023-04-03 09:10:44
+tags: ["Golang"]
 ---
 
 ## 开启 pprof

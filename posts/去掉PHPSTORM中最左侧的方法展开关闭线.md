@@ -1,10 +1,6 @@
 ---
 display-name: 去掉PHPSTORM中最左侧的方法展开关闭线
 date: 2018-04-18 23:10:08
-tags:
-
-- idea
-
 ---
 
 ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/04/9f7976778efb4e220adce3dca94d92ea.png)

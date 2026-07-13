@@ -26,15 +26,14 @@ jobs:
                 run: |
                     apt update -y
                     apt install -y wget libarchive-dev
-                    wget https://github.com/o8x/camus/releases/download/v7.0.0/camus-v7.0.0_linux6.17.0-1018-azure-x86_64.deb -O camus.deb
+                    wget https://github.com/o8x/camus/releases/download/v8.3.0/camus-v8.3.0_linux6.17.0-1018-azure-x86_64.deb -O camus.deb
                     dpkg -i camus.deb
 
             -   name: Build
                 run: |
-                    camus -v
-                    camus -i
-                    camus
                     echo "GITHUB_ACTION_URL=https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}|g" >> .env
+                    camus -iI
+                    camus -d
 
             -   name: Setup Pages
                 uses: actions/configure-pages@v5

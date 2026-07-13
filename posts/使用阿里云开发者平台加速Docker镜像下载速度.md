@@ -1,10 +1,7 @@
 ---
 display-name: 使用阿里云开发者平台加速Docker镜像下载速度
 date: 2018-02-28 15:59:47
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 1. 进入 `https://dev.aliyun.com/search.html` 点击创建我的容器镜像并登陆阿里云账号

@@ -1,10 +1,7 @@
 ---
 display-name: 使用 supervisor 守护进程
 date: 2019-03-08 10:46:04
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 安装

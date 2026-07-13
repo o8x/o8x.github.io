@@ -1,11 +1,7 @@
 ---
 display-name: Ubuntu/Debian 升级 Linux 内核
 date: 2022-06-21 10:02:16
-tags:
-
-- Linux
-- Linux 内核
-
+tags: [ "Linux" ]
 ---
 
 本文章仅对 x86_64 生效，其他架构例如 arm64 仅供参考

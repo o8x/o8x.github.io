@@ -1,10 +1,7 @@
 ---
 display-name: nginx 配置 letsencrypt 并自动续期
 date: 2020-05-26 20:57:42
-tags:
-
-- nginx
-
+tags: ["Linux"]
 ---
 
 

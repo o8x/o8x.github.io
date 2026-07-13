@@ -1,10 +1,7 @@
 ---
 display-name: 命令行模式启动 VMware Fusion 虚拟机
 date: 2020-09-07
-tags:
-
-- MacOS
-
+tags: ["杂项"]
 ---
 
 

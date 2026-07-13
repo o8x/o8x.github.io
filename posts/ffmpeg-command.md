@@ -1,14 +1,7 @@
 ---
 display-name: ffmpeg 常用命令  
-date: 2023-04-17 09:44:09  
-categories:
-
-- 杂项
-
-tags:
-
-- ffmpeg
-
+date: 2023-04-17 09:44:09
+tags: ["Linux"]
 ---
 
 - 合并视频

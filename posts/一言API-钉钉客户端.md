@@ -2,10 +2,7 @@
 display-name: 一言API 钉钉客户端
 draft: false
 date: 2020-06-05 11:17:58
-tags:
-
-- Hitokoto
-
+tags: ["杂项"]
 ---
 
 # hitokoto-dingtalk-client

@@ -1,12 +1,7 @@
 ---
 display-name: docker-compose 常规操作
 date: 2018-05-15 22:39:37
-categories:
-- Docker
-- Linux
-tags:  
-- docker-compose
-- docker
+tags: [ "Linux" ]
 ---
 
 

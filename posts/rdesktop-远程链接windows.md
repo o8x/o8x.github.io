@@ -1,10 +1,7 @@
 ---
 display-name: rdesktop 远程链接windows
 date: 2018-06-21 15:51:09
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 # 安装

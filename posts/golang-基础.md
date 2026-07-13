@@ -1,12 +1,7 @@
 ---
 display-name: golang 基础
 date: 2020-07-16 08:53:33
-tags:
-
-- golang
-
-categories:
-- Golang
+tags: ["Golang"]
 ---
 
 ## 语法

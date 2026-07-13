@@ -2,8 +2,7 @@
 display-name: Windows Server 配置多个IP
 draft: false
 date: 2020-07-22 09:37:31
-tags:
-- Windows
+tags: ["杂项"]
 ---
 
 

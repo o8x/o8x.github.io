@@ -1,10 +1,7 @@
 ---
 display-name: 基于 egg.js 接入jwt（json web token）认证
 date: 2020-06-15 16:20:41
-tags:
-
-- egg.js
-
+tags: ["杂项"]
 ---
 
 ### 什么是 JWT

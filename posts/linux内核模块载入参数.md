@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核模块载入参数
 date: 2022-06-18 11:51:03
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 linux 内核模块可以使用 `module_param` API声明一些参数，在载入时由用户填写

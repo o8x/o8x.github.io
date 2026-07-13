@@ -1,10 +1,7 @@
 ---
 display-name: RSA 证书生成与数据量说明
 date: 2018-02-05 20:09:17
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ### 私钥生成

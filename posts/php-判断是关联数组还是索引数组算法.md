@@ -1,8 +1,7 @@
 ---
 display-name: php 判断是关联数组还是索引数组算法
 date: 2019-04-24 10:22:39
-tags:  
-- php
+tags: ["php"]
 ---
 
 # 速度优先

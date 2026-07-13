@@ -1,8 +1,7 @@
 ---
 display-name: MacOS 桌面空间
 date: 2022-09-16 14:02:25
-categories:
-- MacOS
+tags: ["杂项"]
 ---
 
 ## MacOS 的 "分配给" 选项

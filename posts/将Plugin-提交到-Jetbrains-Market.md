@@ -1,12 +1,7 @@
 ---
 display-name: 将Plugin 提交到 Jetbrains Market
 date: 2020-11-21 11:57:39
-categories:
-- Intellij Platform
-tags:
-
-- Intellij SDK
-
+tags: ["Intellij SDK"]
 ---
 
 ## 注意事项：

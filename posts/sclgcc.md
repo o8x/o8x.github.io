@@ -1,10 +1,7 @@
 ---
 display-name: 使用SCL升级 gcc 版本
 date: 2022-06-16 14:24:55
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 安装SCL源

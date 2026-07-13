@@ -2,12 +2,7 @@
 display-name: Linux 内核命令行 cmdline
 draft: false
 date: 2019-05-06 09:00:00
-categories:
-- Linux
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 

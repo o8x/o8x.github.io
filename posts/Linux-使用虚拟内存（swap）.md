@@ -1,10 +1,7 @@
 ---
 display-name: Linux 使用虚拟内存（swap）
 date: 2020-08-17 11:15:00
-categories:
-- Linux
-tags:  
-- Linux
+tags: [ "Linux" ]
 ---
 
 

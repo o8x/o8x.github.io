@@ -1,10 +1,7 @@
 ---
 display-name: openresty - 利用 nginx 执行 shell
 date: 2018-11-06 18:28:09
-tags:
-
-- nginx
-
+tags: ["Linux"]
 ---
 > 主要使用 openresty 的lua-resty-shell模块
 

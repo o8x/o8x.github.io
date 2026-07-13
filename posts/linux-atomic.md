@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核中的原子操作
 date: 2022-06-18 10:21:53
-categories:
-- Linux
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 该 API 的用法与 golang atomic 包类似

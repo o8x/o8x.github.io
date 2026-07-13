@@ -1,10 +1,7 @@
 ---
 display-name: 基于 Fedora 的工作环境搭建
 date: 2018-07-09 14:28:24
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 # 前言

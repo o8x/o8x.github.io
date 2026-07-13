@@ -1,15 +1,7 @@
 ---
 display-name: Go 1.20 更新内容
 date: 2023-02-11 09:19:24
-publish: true
-categories:
-
-- Golang
-
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 > [Go 1.20 is released!](https://go.dev/blog/go1.20)
 > Go 1.20 在 2023年2月1日 迎来了发布，仍与旧的版本[保证兼容](https://tip.golang.org/doc/go1compat)，迄今为止所有的 Go

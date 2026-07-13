@@ -1,12 +1,7 @@
 ---
 display-name: Intellij Platform SDK API
 date: 2020-11-21 11:54:22
-categories:
-- Intellij Platform
-tags:
-
-- Intellij SDK
-
+tags: ["Intellij SDK"]
 ---
 
 

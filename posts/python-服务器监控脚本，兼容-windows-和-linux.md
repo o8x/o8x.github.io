@@ -1,10 +1,7 @@
 ---
 display-name: python 服务器监控脚本，兼容 windows 和 linux
 date: 2018-12-05 17:42:04
-tags:
-
-- Python
-
+tags: ["Python"]
 ---
 
 # 依赖

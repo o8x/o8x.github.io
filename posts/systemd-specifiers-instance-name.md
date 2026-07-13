@@ -2,14 +2,7 @@
 display-name: 从 systemctl 传递参数到 unit 文件
 date: 2023-01-09 11:34:54
 publish: true
-categories:
-
-- Linux
-
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 前言

@@ -1,14 +1,7 @@
 ---
 display-name: 部署 Docker Registry  
-date: 2024-06-16 20:04:10  
-categories:
-
-- docker
-
-tags:
-
-- docker
-
+date: 2024-06-16 20:04:10
+tags: ["docker"]
 ---
 
 

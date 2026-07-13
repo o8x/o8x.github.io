@@ -1,9 +1,7 @@
 ---
 display-name: Laravel artisan 数据填充 数据工厂
 date: 2017-08-19 17:54:52
-tags:  
-- php
-- laravel
+tags: [ "php", "laravel" ]
 ---
 
 ```php

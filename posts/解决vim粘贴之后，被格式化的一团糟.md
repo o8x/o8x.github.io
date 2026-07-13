@@ -1,11 +1,7 @@
 ---
 display-name: 解决vim粘贴之后，被格式化的一团糟
 date: 2018-07-12 16:03:08
-tags:
-
-- Linux
-- vim
-
+tags: [ "Linux" ]
 ---
 
 #### 粘贴之前设为粘贴模式

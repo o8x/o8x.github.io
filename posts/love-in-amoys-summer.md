@@ -1,10 +1,7 @@
 ---
 display-name: 归荑厦夏
 date: 2023-06-13 13:50:43
-ready: false
 visibility: hidden
-tags:
-    - 我和硕硕的恋爱蓝皮书
 ---
 
 ## 主题曲

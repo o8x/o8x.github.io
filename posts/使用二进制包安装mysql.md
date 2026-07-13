@@ -1,11 +1,7 @@
 ---
 display-name: 使用二进制包安装mysql
 date: 2018-03-18 20:55:10
-tags:
-
-- Linux
-- mysql
-
+tags: [ "Linux" ]
 ---
 
 ### 下载安装包

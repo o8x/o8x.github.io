@@ -1,8 +1,7 @@
 ---
 display-name: 使用 ffmpeg 进行B站直播
 date: 2018-07-11 14:22:06
-tags:  
-- ffmpeg
+tags: [ "Linux" ]
 ---
 
 ## 打开直播

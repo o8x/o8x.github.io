@@ -1,9 +1,7 @@
 ---
 display-name: 解决laravel5.4+ artisan数据迁移 ,字符长度超出抛出异常的问题
 date: 2017-08-16 15:04:23
-tags:  
-- laravel
-- php
+tags: [ "php" ]
 ---
 
 laravel 5.4 之后，数据迁移时常伴随着如下异常:

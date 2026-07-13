@@ -1,11 +1,7 @@
 ---
 display-name: 编译安装日志分析平台 elk + filebeat
 date: 2018-08-22 14:02:38
-tags:
-
-- Linux
-- elk
-
+tags: [ "Linux" ]
 ---
 
 # 开始之前

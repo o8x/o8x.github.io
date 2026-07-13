@@ -1,12 +1,7 @@
 ---
 display-name: Linux 基本操作
 date: 2020-06-09 14:40:06
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ### 增加用户普通用户并提权到管理员

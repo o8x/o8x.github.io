@@ -1,10 +1,7 @@
 ---
 display-name: Python 基础语法
 date: 2017-09-02 16:18:03
-tags:
-
-- Python
-
+tags: ["杂项"]
 ---
 
 **最近开始了新课题 ,linux自动化.**

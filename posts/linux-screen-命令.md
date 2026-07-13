@@ -1,12 +1,7 @@
 ---
 display-name: linux screen 命令
 date: 2018-08-21 17:07:08
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 > 一个由GUN开发的命令行工具 , 可以让窗口后台运行

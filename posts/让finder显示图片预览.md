@@ -1,10 +1,7 @@
 ---
 display-name: 让finder显示图片预览
 date: 2020-12-01 10:45:19
-tags:
-
-- MacOS
-
+tags: ["杂项"]
 ---
 
 

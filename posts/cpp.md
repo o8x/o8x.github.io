@@ -2,10 +2,7 @@
 display-name: C++
 date: 2024-07-15 09:38:50
 permalinkPattern: :year/:month/:day/:slug.html
-categories:
-    - C++
-tags:
-    - C++
+tags: ["C++"]
 ---
 
 ## 程序的基本结构

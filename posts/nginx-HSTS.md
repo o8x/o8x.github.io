@@ -1,10 +1,7 @@
 ---
 display-name: nginx 开启强制 https
 date: 2018-06-14 22:27:30
-tags:
-
-- nginx
-
+tags: [ "Linux" ]
 ---
 
 ### HSTS
@@ -40,5 +37,15 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/stdout.com.com-0004/privkey.pem;
     include /etc/letsencrypt/options-ssl-nginx.conf;
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+}
+```
+
+强制跳转 HTTPS
+
+```nginx
+server {
+    listen 80;
+
+    return 301 https://$server_name$request_uri;
 }
 ```

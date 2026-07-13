@@ -1,8 +1,7 @@
 ---
 display-name: git 基本操作
 date: 2020-06-12 13:46:06
-tags:  
-- git
+tags: [ "git" ]
 ---
 
 ## 撤销最近提交的 commit 并保留文件变更

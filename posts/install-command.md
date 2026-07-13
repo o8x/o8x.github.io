@@ -1,10 +1,7 @@
 ---
 display-name: cp 命令的高级替代品 install
 date: 2022-07-06 08:57:39
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 install 命令是 coreutils 中的一个命令，它可以在完成cp命令功能的同时进行文件属性设置等工作

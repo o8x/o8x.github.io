@@ -1,13 +1,7 @@
 ---
 display-name: golang 单元测试入门
 date: 2020-07-16 14:58:05
-categories:
-- Golang
-tags:
-
-- golang
-- 单元测试
-
+tags: ["Golang"]
 ---
 
 ## 单元测试

@@ -1,10 +1,7 @@
 ---
 display-name: 简单的通过yum安装和配置LNMP环境
 date: 2018-08-20 10:50:28
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ### Nginx

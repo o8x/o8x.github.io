@@ -1,12 +1,7 @@
 ---
 display-name: 如何使用Intellij Platform SDK
 date: 2020-11-21 11:53:50
-categories:
-- Intellij Platform
-tags:
-
-- Intellij SDK
-
+tags: ["Intellij SDK"]
 ---
 
 

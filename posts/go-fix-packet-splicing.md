@@ -1,15 +1,7 @@
 ---
 display-name: Golang 解决TCP的数据无边界性问题（粘包）
 date: 2023-01-22 10:13:22
-publish: true
-categories:
-
-- Golang
-
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 
 ## 什么是数据的无边界性问题

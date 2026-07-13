@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核模块配置自动装载
 date: 2022-06-18 11:48:01
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 使用上一节的 fried_chicken.ko 文件

@@ -1,10 +1,7 @@
 ---
 display-name: 迁移 wordpress 文章到 hexo
 date: 2020-05-26 10:54:06
-tags:
-
-- php
-
+tags: ["杂项"]
 ---
 
 ### 已知缺陷

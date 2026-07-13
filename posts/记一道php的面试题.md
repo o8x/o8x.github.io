@@ -1,10 +1,7 @@
 ---
 display-name: 记一道 php 的面试题
 date: 2020-06-30 15:36:38
-tags:
-
-- php
-
+tags: ["php"]
 ---
 
 ### 题目

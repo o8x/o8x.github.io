@@ -1,11 +1,7 @@
 ---
 display-name: Python 与 PHP 使用RSA互相加解密传输数据
 date: 2019-12-05 10:22:06
-tags:
-
-- Python
-- php
-
+tags: ["php"]
 ---
 
 ## 需求

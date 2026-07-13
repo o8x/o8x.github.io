@@ -1,10 +1,7 @@
 ---
 display-name: 如何使用 drone 进行持续集成
 date: 2020-07-09 14:04:46
-tags:
-
-- drone
-
+tags: ["Linux"]
 ---
 
 ## 什么是 Drone

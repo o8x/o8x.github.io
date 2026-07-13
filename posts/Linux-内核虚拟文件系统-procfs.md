@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核虚拟文件系统 procfs
 date: 2022-06-18 09:54:23
-categories:
-    - Linux 内核
-tags:
-
-    - Linux 内核
-
+tags: ["Linux"]
 ---
 
 ### 选项

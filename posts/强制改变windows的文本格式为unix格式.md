@@ -1,8 +1,7 @@
 ---
 display-name: 强制改变windows的文本格式为unix格式
 date: 2018-09-18 11:58:01
-tags:  
-- vim
+tags: [ "Linux" ]
 ---
 
 > 很多时候windows上写的脚本上传到linux之后不能执行，都是因为 windows 标准的换行这一类特殊字符linux不能识别

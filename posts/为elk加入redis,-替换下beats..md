@@ -1,11 +1,7 @@
 ---
 display-name: 为elk加入redis, 替换下beats.
 date: 2018-08-25 10:25:30
-tags:
-
-- Linux
-- elk
-
+tags: [ "Linux", "elk" ]
 ---
 
 # 为elk加入redis, 替换下beats

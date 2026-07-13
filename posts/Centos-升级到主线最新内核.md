@@ -2,12 +2,7 @@
 display-name: Centos 升级到主线最新内核
 draft: false
 date: 2020-08-19 08:40:26
-tags:
-- Linux 内核
-- CentOS
-
-categories:
-- Linux
+tags: ["Linux"]
 ---
 
 ## 查看当前版本

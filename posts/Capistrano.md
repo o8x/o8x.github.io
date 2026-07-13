@@ -1,11 +1,7 @@
 ---
 display-name: Capistrano
 date: 2018-04-17 17:32:14
-tags:
-
-- Linux
-- Capistrano
-
+tags: [ "Linux" ]
 ---
 
 # 安装Capistrano

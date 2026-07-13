@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核模块编译环境配置
 date: 2022-06-18 13:48:04
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 编译 linux 内核模块需要安装内核的开发包，以下流程仅供参考

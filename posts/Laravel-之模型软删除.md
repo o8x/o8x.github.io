@@ -1,9 +1,7 @@
 ---
 display-name: Laravel 之模型软删除
 date: 2017-10-21 14:01:13
-tags:
-- php
-- laravel
+tags: ["php"]
 ---
 
 > 如果 laravel 模型配置了软删除，那么数据并不会真的被删除，而是更新 deleted_at 字段为当前时间戳。且查询时也会规避具有 deleted_at 的数据

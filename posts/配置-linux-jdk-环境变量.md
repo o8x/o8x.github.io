@@ -1,11 +1,7 @@
 ---
 display-name: 配置 linux jdk 环境变量
 date: 2019-01-30 14:35:50
-tags:
-
-- Linux
-- java
-
+tags: [ "Linux" ]
 ---
 
 ### 写入环境变量

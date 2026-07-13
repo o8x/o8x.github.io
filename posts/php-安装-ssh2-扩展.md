@@ -1,11 +1,7 @@
 ---
 display-name: php 安装 ssh2 扩展
 date: 2018-12-07 09:52:44
-tags:
-
-- Linux
-- php
-
+tags: [ "Linux", "php" ]
 ---
 
 # 安装

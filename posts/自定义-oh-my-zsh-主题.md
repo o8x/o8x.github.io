@@ -1,10 +1,7 @@
 ---
 display-name: 自定义 oh my zsh 主题
 date: 2019-04-26 14:10:12
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 > 默认主题全部位于 ~/.oh-my-zsh/themes/ , 本文基于自带主题 ys 修改

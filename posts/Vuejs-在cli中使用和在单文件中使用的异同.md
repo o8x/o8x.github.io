@@ -1,10 +1,6 @@
 ---
 display-name: Vuejs 在cli中使用和在单文件中使用的异同
 date: 2018-07-27 09:24:09
-tags:
-
-- Vue
-
 ---
 
 # 前言

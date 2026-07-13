@@ -1,10 +1,7 @@
 ---
 display-name: windows7以后的版本开启超级管理员账户
 date: 2018-07-10 13:39:54
-tags:
-
-- Windows
-
+tags: ["杂项"]
 ---
 
 #### 登陆任意管理员账户

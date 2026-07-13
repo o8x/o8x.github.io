@@ -1,12 +1,7 @@
 ---
 display-name: 什么是 Intellij Platform SDK ？
 date: 2020-11-21 11:53:31
-categories:
-- Intellij Platform
-tags:
-
-- Intellij SDK
-
+tags: ["Intellij SDK"]
 ---
 
 ## IntelliJ Platform?

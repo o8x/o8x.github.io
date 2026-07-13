@@ -1,15 +1,7 @@
 ---
 display-name: Electron + React + Antd 初始化配置   
-date: 2023-03-15 14:33:13  
-categories:
-
-- Electron
-
-tags:
-
-- React
-- Electron
-
+date: 2023-03-15 14:33:13
+tags: ["React"]
 ---
 
 ## 初始化

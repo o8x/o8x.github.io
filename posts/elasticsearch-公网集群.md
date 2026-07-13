@@ -1,9 +1,7 @@
 ---
 display-name: elasticsearch 公网集群
 date: 2018-09-19 11:51:36
-tags:  
-- Linux
-- elasticsearch
+tags: [ "Linux" ]
 ---
 
 > 参数不多，只有4个

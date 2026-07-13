@@ -2,10 +2,7 @@
 display-name: 使用curl跟踪链接，并打印头信息
 draft: false
 date: 2020-05-26 20:51:10
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 > 今天为了测试本站配置的 HTTP2 有没有成功，特地查询了一下

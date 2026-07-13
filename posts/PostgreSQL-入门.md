@@ -1,10 +1,7 @@
 ---
 display-name: PostgreSQL 入门
 date: 2020-10-28 11:35:37
-tags:
-
-- PostgreSQL
-
+tags: ["杂项"]
 ---
 
 ## 安装

@@ -1,12 +1,7 @@
 ---
 display-name: golang 工具链
 date: 2020-07-16 08:53:33
-categories:
-- Golang
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 
 gofmt

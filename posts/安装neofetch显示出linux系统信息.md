@@ -1,10 +1,7 @@
 ---
 display-name: 安装neofetch显示出linux系统信息
 date: 2018-03-06 18:36:42
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 # 安装

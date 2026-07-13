@@ -1,12 +1,7 @@
 ---
 display-name: SSH实现端口转发和SOCKS5代理
 date: 2022-06-24 13:54:50
-categories:
-- Linux
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 公用参数

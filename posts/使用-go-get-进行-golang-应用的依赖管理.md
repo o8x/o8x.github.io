@@ -1,12 +1,7 @@
 ---
 display-name: 使用 go get 进行 golang 应用的依赖管理
 date: 2020-07-16 14:59:07
-categories:
-- Golang
-tags:
-
-- golang
-
+tags: ["Golang"]
 ---
 
 ## Golang 依赖管理

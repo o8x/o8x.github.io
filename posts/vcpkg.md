@@ -2,10 +2,7 @@
 display-name: vcpkg
 date: 2024-08-12 12:34:34
 permalinkPattern: :year/:month/:day/:slug.html
-categories:
-    - C++
-tags:
-    - C++
+tags: ["C++"]
 ---
 
 来自 Microsoft 的 C/C++ 依赖管理器，适用于所有平台、构建系统和工作流程 [https://vcpkg.io](https://vcpkg.iol)。

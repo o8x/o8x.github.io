@@ -1,12 +1,7 @@
 ---
-display-name: Linux 内核 Netfilter 模块
+display-name: Linux Netfilter
 date: 2022-06-18 13:39:18
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 ### 参数配置

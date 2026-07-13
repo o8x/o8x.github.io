@@ -1,10 +1,6 @@
 ---
 display-name: 现代浏览器客户端数据持久化方案 indexedDB
 date: 2019-03-15 11:01:18
-tags:
-
-- indexedDB
-
 ---
 
 ## IndexedDB 操作类

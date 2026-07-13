@@ -1,14 +1,7 @@
 ---
 display-name: kubernetes  
-date: 2024-06-02 15:59:10  
-categories:
-
-- kubernetes
-
-tags:
-
-- kubernetes
-
+date: 2024-06-02 15:59:10
+tags: ["Linux"]
 ---
 
 - 本文内容部分来自 `https://kubernetes.io/zh-cn/docs/tutorials`

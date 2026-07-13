@@ -1,9 +1,7 @@
 ---
 display-name: 使用github release API 构建APP 的更新服务
 date: 2018-01-04 17:06:21
-tags:  
-- git
-- github
+tags: ["杂项"]
 ---
 
 ### 使用

@@ -1,12 +1,7 @@
 ---
 display-name: Intellij Platform SDK UI
 date: 2020-11-21 11:54:40
-categories:
-- Intellij Platform
-tags:
-
-- Intellij SDK
-
+tags: ["Intellij SDK"]
 ---
 
 

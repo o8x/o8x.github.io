@@ -1,10 +1,7 @@
 ---
 display-name: PlantUML
 date: 2019-05-05 14:24:14
-tags:
-
-- UML
-
+tags: ["杂项"]
 ---
 
 *序列图*

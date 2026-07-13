@@ -1,10 +1,7 @@
 ---
 display-name: DPDK 基本概念
 date: 2024-09-16 12:45:35
-categories:
-    - C++
-tags:
-    - DPDK
+tags: ["C++", "DPDK"]
 ---
 
 ## 基本概念

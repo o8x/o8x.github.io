@@ -1,12 +1,7 @@
 ---
 display-name: C++ 与 lua 联合编程
 date: 2024-09-02 10:20:38
-publish: true
-categories:
-    - C++
-tags:
-    - lua
-    - C++
+tags: ["C++"]
 ---
 
 ## 环境部署

@@ -1,9 +1,7 @@
 ---
 display-name: 永久删除Git中的文件，包括历史commit
 date: 2020-05-26 11:29:14
-draft: false
-tags:
-- git
+tags: ["git"]
 ---
 
 PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA就是你要删除的文件的相对路径(相对于git仓库的根目录), 替换成你要删除的文件路径即可

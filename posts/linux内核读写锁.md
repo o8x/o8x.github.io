@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核读写锁
 date: 2022-06-18 10:51:19
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 ### 初始化锁

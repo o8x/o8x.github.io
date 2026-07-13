@@ -1,10 +1,6 @@
 ---
 display-name: 关于Python3.6 json.dumps() 无法解析datetime格式的问题
 date: 2017-12-21 10:33:05
-tags:
-
-- python
-
 ---
 
 最近一直会遇到无法格式化datetime的问题 ,百度之 , 解决方案如下 :

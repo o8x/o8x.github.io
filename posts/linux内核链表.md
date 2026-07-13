@@ -1,12 +1,7 @@
 ---
 display-name: Linux 内核链表"
 date: 2022-06-18 11:04:50
-categories:
-- Linux 内核
-tags:
-
-- Linux 内核
-
+tags: ["Linux"]
 ---
 
 linux 内核中提供了一种精妙无比的链表API，本文介绍其常用的用法

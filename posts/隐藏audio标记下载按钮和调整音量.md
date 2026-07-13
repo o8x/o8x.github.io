@@ -1,10 +1,6 @@
 ---
 display-name: 隐藏audio标记下载按钮和调整音量
 date: 2018-02-20 21:19:23
-tags:
-
-- javascript
-
 ---
 
 平常的audio标记会出现明显的下载按钮 , 资源很容易被盗走，audio标记的属性`controlsList="nodownload"`可以实现隐藏按钮

@@ -1,11 +1,7 @@
 ---
 display-name: PHPstorm + PHP7.17 配置调试器Xdebug
 date: 2017-08-26 11:54:26
-tags:
-
-- php
-- xdebug
-
+tags: ["php"]
 ---
 
 ### 下载

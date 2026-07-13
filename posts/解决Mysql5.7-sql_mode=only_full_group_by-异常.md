@@ -1,8 +1,7 @@
 ---
 display-name: 解决Mysql5.7 sql_mode=only_full_group_by 异常
 date: 2018-09-03 09:17:43
-tags:  
-- mysql
+tags: [ "mysql" ]
 ---
 
 ONLY_FULL_GROUP_BY 的意思是：对于GROUP BY聚合操作，如果在SELECT中的列，没有在GROUP BY中出现，那么这个SQL是不合法的，因为列不在GROUP BY从句中，也就是说查出来的列必须在group

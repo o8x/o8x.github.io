@@ -1,10 +1,7 @@
 ---
 display-name: 定时重启内网中所有服务器的 IPMI
 date: 2019-03-18 17:24:01
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 ## 代码

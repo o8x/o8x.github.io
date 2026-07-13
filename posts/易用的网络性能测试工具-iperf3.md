@@ -1,10 +1,7 @@
 ---
 display-name: 易用的网络性能测试工具 iperf3
 date: 2019-09-30 11:38:19
-tags:
-
-- Linux
-
+tags: [ "Linux" ]
 ---
 
 > iperf3是一款优秀的网络性能测试工具，支持 udp 和 tcp 等方式进行测试，可工作在内网与公网中。

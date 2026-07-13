@@ -1,11 +1,7 @@
 ---
 display-name: 比较简单的通过源码安装和配置LNMP环境
 date: 2017-12-24 17:50:17
-tags:
-
-- Linux
-- nginx
-
+tags: [ "Linux" ]
 ---
 
 ### 需要处理的依赖包 ###

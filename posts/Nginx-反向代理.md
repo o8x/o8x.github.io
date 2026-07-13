@@ -1,8 +1,7 @@
 ---
 display-name: Nginx 反向代理
 date: 2018-06-12 23:24:52
-tags:  
-- nginx
+tags: [ "Linux" ]
 ---
 
 ### 例如把 `https://site.com/api/*` 代理到 `https://api.site.com/api/*` 中

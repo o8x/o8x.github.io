@@ -1,10 +1,7 @@
 ---
 display-name: 基于 Docker ，Gogs，Jenkins，Kubernetes 实践工程源代码的自动构建和持续集成与部署交付
-date: 2019-04-25    
-tags:
-
-- git
-
+date: 2019-04-25
+tags: ["git"]
 ---
 
 > 本期目标 : 基于 Centos 7.6 , 封装出一个可用于运行 php 项目的开箱即用镜像
