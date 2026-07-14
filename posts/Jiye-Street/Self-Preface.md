@@ -1,6 +1,7 @@
 ---
 display-name: 自序
 date: 2026-04-01
+visibility: hidden
 ---
 
 自序

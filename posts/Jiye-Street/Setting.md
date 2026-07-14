@@ -1,6 +1,7 @@
 ---
 display-name: 设定集
 date: 2026-04-01
+visibility: hidden
 ---
 
 ## 环境设定
