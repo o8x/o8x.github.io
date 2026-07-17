@@ -8,15 +8,16 @@ camus:
     toc_format: json
     domain_name: stdout.com.cn
     render:
+        static: inja
         engine: cmark-gfm
         options:
-            - DEFAULT                           # 默认选项，采用安全模式（过滤原始HTML和危险链接）
-            - VALIDATE_UTF8                     # 解析前验证 UTF-8 编码，将非法序列替换为替换字符 U+FFFD
-            - SMART                             # 智能排版：将直引号转为弯引号，---转为长破折号，--转为短破折号
-            - FOOTNOTES                         # 解析脚注语法
-            - FULL_INFO_STRING                  # 代码块中保留完整信息字符串，并在独立的属性中提供
-            - TABLE_PREFER_STYLE_ATTRIBUTES     # 表格单元格对齐使用 style 属性而非 align 属性
-            - UNSAFE                            # 渲染原始 HTML 和不安全链接（如javascript:等），默认会过滤
+            - DEFAULT
+            - VALIDATE_UTF8
+            - SMART
+            - FOOTNOTES
+            - FULL_INFO_STRING
+            - TABLE_PREFER_STYLE_ATTRIBUTES
+            - UNSAFE
 
 catalog:
     -   path: /

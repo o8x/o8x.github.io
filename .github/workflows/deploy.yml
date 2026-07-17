@@ -19,14 +19,15 @@ jobs:
         runs-on: ubuntu-24.04
         container:
             image: docker.io/ubuntu:24.04
-
+        env:
+            CAMUS_VERSION: v8.4.0
         steps:
             -   uses: actions/checkout@v4
             -   name: Install dependencies
                 run: |
                     apt update -y
                     apt install -y wget libarchive-dev
-                    wget https://github.com/o8x/camus/releases/download/v8.3.0/camus-v8.3.0_linux6.17.0-1018-azure-x86_64.deb -O camus.deb
+                    wget https://github.com/o8x/camus/releases/download/${CAMUS_VERSION}/camus-${CAMUS_VERSION}_linux6.17.0-1020-azure-x86_64.deb -O camus.deb
                     dpkg -i camus.deb
 
             -   name: Build
