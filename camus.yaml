@@ -19,6 +19,17 @@ camus:
             - TABLE_PREFER_STYLE_ATTRIBUTES
             - UNSAFE
 
+friends:
+    -   title: 一言网
+        link_url: https://hitokoto.cn
+        image_url: https://i.loli.net/2020/02/07/kDIUWCQpKEdFTP8.png
+        desc: 一言网（hitokoto.cn）创立于 2016 年，隶属于萌创团队，目前网站主要提供一句话服务。
+
+    -   title: 藤之青
+        link_url: https://i.a632079.me/?ref=stdout.com.cn
+        image_url: https://cdn.a632079.me/favicon.ico
+        desc: 亲眼所见，亦非真实
+
 catalog:
     -   path: /
         title: Alex
