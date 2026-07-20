@@ -8,9 +8,9 @@ tags: ["Golang"]
 
 申请 read_repository 权限的 gitlab AccessToken
 
-![image-20201110150456292](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201110150459.png)
+![image-20201110150456292]({{ env.cdn_accelerate }}/20201110150459.png)
 
-![image-20201110150617958](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201110150619.png)
+![image-20201110150617958]({{ env.cdn_accelerate }}/20201110150619.png)
 
 ## 修改 repo 代理
 

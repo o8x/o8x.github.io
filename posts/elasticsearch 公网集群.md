@@ -44,5 +44,5 @@ discovery.zen.minimum_master_nodes: 1
 
 # 效果图
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/4837bf05dace79e4fcfae02fb50d1465.png)
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/40de87cda6468398075cfc123b65117e.png)
+![]({{ env.cdn_accelerate }}/2018/09/4837bf05dace79e4fcfae02fb50d1465.png)
+![]({{ env.cdn_accelerate }}/2018/09/40de87cda6468398075cfc123b65117e.png)

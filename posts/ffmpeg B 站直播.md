@@ -8,6 +8,6 @@ tags: [ "Linux" ]
 
 > [https://link.bilibili.com/p/center/index#/my-room/start-live](https://link.bilibili.com/p/center/index#/my-room/start-live)
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/07/d9615bb2f9e0e729e27952f862a0a274.png)
+![]({{ env.cdn_accelerate }}/2018/07/d9615bb2f9e0e729e27952f862a0a274.png)
 
     ffmpeg -re -i "1.mp4" -vcodec copy -acodec aac -b:a 192k -f flv "rtmp地址/直播码"

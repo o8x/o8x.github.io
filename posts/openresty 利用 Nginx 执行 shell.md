@@ -10,11 +10,11 @@ tags: ["Linux"]
 ## 安装
 
 - 使用包管理器安装
-  > 官方教程：[http://openresty.org/en/linux-packages.html](http://openresty.org/en/linux-packages.html)
+> 官方教程：[http://openresty.org/en/linux-packages.html](http://openresty.org/en/linux-packages.html)
 
 - 编译安装
-  下载并解压
-    ```bash
+下载并解压
+```bash
 
 VERSION=1.13.6.2
 wget https://openresty.org/download/openresty-$VERSION.tar.gz
@@ -23,20 +23,18 @@ cd openresty-$VERSION/
 
 ```
 
-    安装
-    
-    ```bash
+安装
+
+```bash
 
 ./configure -j2
 make -j2
 make install
 ```
 
-    建立软连接
-    ```bash
-
+建立软连接
+```bash
 ln -s $(pwd)/bin/openresty /sbin/openresty
-
 ```
 
 ## 启动
@@ -87,7 +85,7 @@ cp lua-resty-shell/lib/resty/shell.lua ./lualib/resty/
 vim ./lualib/gitpull.lua
 local shell = require "resty.shell"
 local args = {
-     socket = "unix:/tmp/shell.sock"
+    socket = "unix:/tmp/shell.sock"
 }
 
 local status, out, err = shell.execute("cd /project/ && git pull origin master", args)  --ls 是想调用的命令,
@@ -115,10 +113,10 @@ location = /api/git-hook {
 openresty -s reload
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/11/0cc9d452736ef6d4ca5cb7f646acae72.png)
+![]({{ env.cdn_accelerate }}/2018/11/0cc9d452736ef6d4ca5cb7f646acae72.png)
 
 # 可选步骤 -- 添加一个 webhook
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/11/7725d97f84ee2eb67af228217476b702.png)
+![]({{ env.cdn_accelerate }}/2018/11/7725d97f84ee2eb67af228217476b702.png)
 
 # 大功告成

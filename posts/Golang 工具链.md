@@ -17,4 +17,4 @@ $ godoc -http=:8080 -play
 using module mode; GOMOD=/private/tmp/goget/go.mod
 ```
 
-![image-20200717153517805](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200717153526.png)
+![image-20200717153517805]({{ env.cdn_accelerate }}/20200717153526.png)

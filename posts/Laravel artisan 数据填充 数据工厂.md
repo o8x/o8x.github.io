@@ -30,4 +30,4 @@ Tinker 中调用
 factory(App\Post::class ,200)->make();
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2017/08/2017-08-19-17-52-46-的屏幕截图.png)
+![]({{ env.cdn_accelerate }}/2017/08/2017-08-19-17-52-46-的屏幕截图.png)

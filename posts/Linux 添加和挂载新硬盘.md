@@ -10,7 +10,7 @@ tags: [ "Linux" ]
 fdisk -l
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/77415dfcd41b4d967493b966bf711e35.png)
+![]({{ env.cdn_accelerate }}/2018/09/77415dfcd41b4d967493b966bf711e35.png)
 
 ### 创建分区
 
@@ -44,7 +44,7 @@ Ignore # 忽略
 $ fdisk -l
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/c11d12769916c409184102da4964fd0d.png)
+![]({{ env.cdn_accelerate }}/2018/09/c11d12769916c409184102da4964fd0d.png)
 
 ### 挂载
 
@@ -68,7 +68,7 @@ mount /dev/sdb1 /es-data
 df -h
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/03680ab8fee28662dab6b63d5c283f26.png)
+![]({{ env.cdn_accelerate }}/2018/09/03680ab8fee28662dab6b63d5c283f26.png)
 
 #### 设置开机自动挂载
 

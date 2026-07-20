@@ -44,7 +44,7 @@ zend_extension = "/path/xdebug.so"
 
 #### 重启 php-fpm
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2017/08/2017-08-26-11-35-06-的屏幕截图.png)
+![]({{ env.cdn_accelerate }}/2017/08/2017-08-26-11-35-06-的屏幕截图.png)
 
 #### 配置 phpstorm
 

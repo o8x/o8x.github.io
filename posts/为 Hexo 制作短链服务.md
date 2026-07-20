@@ -413,6 +413,6 @@ let timer = setInterval(() => {
 
 > 效果演示
 
-<video src="https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/Jietu20200607-205130-HD.mp4"
+<video src="{{ env.cdn_accelerate }}/Jietu20200607-205130-HD.mp4"
 style="max-width: 800px;min-width: 500px;"
 controls="controls" preload="preload"></video>

@@ -21,7 +21,7 @@ tags: ["Intellij SDK"]
 
 项目允许使用 Java 进行开发
 
-![image-20201121135527170](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121135531.png)
+![image-20201121135527170]({{ env.cdn_accelerate }}/20201121135531.png)
 
 **基本工程目录**
 
@@ -53,7 +53,7 @@ tags: ["Intellij SDK"]
 
 该选项允许使用 Java 或 kotlin 进行开发
 
-![image-20201121140800034](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121140801.png)
+![image-20201121140800034]({{ env.cdn_accelerate }}/20201121140801.png)
 
 **基本工程目录**
 
@@ -163,7 +163,7 @@ public class Main extends AnAction
 
 我现在的选项是，在Tools菜单的顶部，注册了一个名为 Hello World 的选项。
 
-![image-20201121143642905](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121143646.png)
+![image-20201121143642905]({{ env.cdn_accelerate }}/20201121143646.png)
 
 点击OK之后观察 plugin.xml 发现 actions 段多了以下内容，这便是注册菜单的实际行为，换言之我们完全可以不使用图形化的注册菜单，直接书写 xml 也能达到完全一致的效果。
 
@@ -178,23 +178,23 @@ public class Main extends AnAction
 
 一般来说，通过IDEA创建的工程会自带一个类似这样的启动配置，直接点击即可运行项目
 
-![image-20201121144955717](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121144957.png)
+![image-20201121144955717]({{ env.cdn_accelerate }}/20201121144957.png)
 
 如果没有带？
 
 则双击 shift 输入 gradle 进行Action搜索，选中第一个直接回车。
 
-![image-20201121145219886](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121145221.png)
+![image-20201121145219886]({{ env.cdn_accelerate }}/20201121145221.png)
 
 然后会打开如下样式的窗口，直接鼠标双击 intellij 下的 runIde 即可运行
 
-![image-20201121145342920](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121145344.png)
+![image-20201121145342920]({{ env.cdn_accelerate }}/20201121145344.png)
 
 **运行**
 
 经过gradle编译之后，IDEA会启动一个新的IDEA实例来运行我们的插件（此处可能需要下载 IDEA Community 源码，耐心等待即可，加速方法懂得都懂）。
 
-![image-20201121145515952](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121145517.png)
+![image-20201121145515952]({{ env.cdn_accelerate }}/20201121145517.png)
 
 启动完成类似如下，我们按正常流程创建一个空项目即可。
 
@@ -204,11 +204,11 @@ public class Main extends AnAction
 
 在空项目中新建一个文件并保存，下次运行就会自动打开该项目。
 
-![image-20201121145637040](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121145638.png)通过单击顶部的 Tools
+![image-20201121145637040]({{ env.cdn_accelerate }}/20201121145638.png)通过单击顶部的 Tools
 菜单，我们可以发现 Hello World 已经注册到了顶部。
 
-![image-20201121150133725](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121150135.png)
+![image-20201121150133725]({{ env.cdn_accelerate }}/20201121150135.png)
 
 **单击我们注册的 Hello World，大功告成**
 
-![image-20201121150401447](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201121150403.png)
+![image-20201121150401447]({{ env.cdn_accelerate }}/20201121150403.png)

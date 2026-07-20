@@ -213,11 +213,11 @@ public class ActionExample extends AnAction
 
 将鼠标放在类名上，稍等片刻就会出现提示，直接点击 Register Action 即可。
 
-![image-20201225101413139](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225101416.png)
+![image-20201225101413139]({{ env.cdn_accelerate }}/20201225101416.png)
 
 然后就会出现类似如下的界面，根据需求选择即可。
 
-![image-20201225101507254](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225101508.png)
+![image-20201225101507254]({{ env.cdn_accelerate }}/20201225101508.png)
 
 最后按Ok，就会自动生成XML配置。
 
@@ -447,9 +447,9 @@ Panel 直接在代码中调用，无需注册
 
 ### 效果图
 
-![image-20201225111010370](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225111011.png)
+![image-20201225111010370]({{ env.cdn_accelerate }}/20201225111011.png)
 
-![image-20201225111110350](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225111112.png)
+![image-20201225111110350]({{ env.cdn_accelerate }}/20201225111112.png)
 
 ### 获取配置
 
@@ -540,14 +540,14 @@ public class NotifyGroup
 ### 效果图
 
 单条通知
-![image-20201225113441376](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225113442.png)
+![image-20201225113441376]({{ env.cdn_accelerate }}/20201225113442.png)
 
 多条折叠
-![image-20201225113514765](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225113516.png)
+![image-20201225113514765]({{ env.cdn_accelerate }}/20201225113516.png)
 
 EventLog 效果
 
-![image-20201225113621413](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225113622.png)
+![image-20201225113621413]({{ env.cdn_accelerate }}/20201225113622.png)
 
 ## 图标
 
@@ -561,7 +561,7 @@ EventLog 效果
 
 我们可以给自定义的动作 An Action 前面加一个小小的叹号，就像 Kotlin 前面的这个。
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225143624.png)
+![]({{ env.cdn_accelerate }}/20201225143624.png)
 
 注册图标只需要在Action的构造方法中，调用置顶的 super() 即可，第三个参数就是图标。
 
@@ -620,4 +620,4 @@ public class Action extends AnAction
 
 ***值得注意的是：该svg图标的宽高需要为 12x12 或 16x16，否则就会出现这样的奇怪效果***
 
-![image-20201225145643801](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225145645.png)
+![image-20201225145643801]({{ env.cdn_accelerate }}/20201225145645.png)

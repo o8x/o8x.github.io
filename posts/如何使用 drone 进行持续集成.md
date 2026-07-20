@@ -69,7 +69,7 @@ sudo systemctl restart docker
 | Drone Agent   | 操作宿主机 Docker API 的代理程序                       |
 | Docker Server | 宿主机的 Doker 程序                                    |
 
-![image-20200709162255567](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200709162257.png)
+![image-20200709162255567]({{ env.cdn_accelerate }}/20200709162257.png)
 
 ## 安装
 
@@ -170,12 +170,16 @@ systemctl restart docker
 
 #### 环境变量
 
+{#
+
 ```shell
 export GOGS_URL="http://1.1.2.3:2048"
 export DRONE_HOST="0.0.0.0"
 export DRONE_SECRET="xh1HJLO2yfandlwjeHdsL3Kklwheour89"
 export DOCKER_HOST="tcp://`docker network inspect --format='{{range .IPAM.Config}}{{.Gateway}}{{end}}' bridge`:2375"
 ```
+
+#}
 
 #### server
 
@@ -227,7 +231,7 @@ docker run -d \
 
 当你的Gogs加入了新的项目，可以使用 SYNC 按钮同步到 Drone 中来
 
-![image-20200710090528175](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710090530.png)
+![image-20200710090528175]({{ env.cdn_accelerate }}/20200710090530.png)
 
 **为新工程开启构建**
 
@@ -235,7 +239,7 @@ docker run -d \
 
 更新：设置公开之后无需登录即可查看项目构建状态。私有则必须登录才可以
 
-![image-20200710092645980](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710092647.png)
+![image-20200710092645980]({{ env.cdn_accelerate }}/20200710092647.png)
 
 **坑**
 
@@ -245,26 +249,26 @@ Save之后将会自动生成 Gogs WebHook，但是它生成的地址未经转换
 
    **无论你配置的什么地址，都应该亲自来 Gogs 中看一看，是否是可访问的地址**
 
-   ![image-20200710093643951](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710093646.png)
+   ![image-20200710093643951]({{ env.cdn_accelerate }}/20200710093646.png)
 
 1. 如果我们配置的 DRONE_HOST 是 127.0.0.1/
    那么它将会生成这样的地址，暂时先不关注端口的话，就只有多了个/的问题。按常理来讲多一个/不会影响请求效果，但是Drone会受影响，要手动去掉/，修改为正确地址才可以。例如：`http://xxx.org:3005/hook`。
 
-   ![image-20200710093815148](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710093817.png)
+   ![image-20200710093815148]({{ env.cdn_accelerate }}/20200710093817.png)
 
 1. 配置完成后你需要点铅笔符号，拉到最下面，有一个 Test Delivery ，点击下去观察是否可以成功推送。
 
    如果是这样，那就要重新检查你的 Webhook 域名配置了。
 
-   ![image-20200710094735492](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710094737.png)
+   ![image-20200710094735492]({{ env.cdn_accelerate }}/20200710094737.png)
 
    如果是绿色，说明你的配置正确。**并且 Drone 将会启动第一次构建，但是因为我们没有 .drone.yml 文件，所以构建一定是失败的**
 
-   ![image-20200710094911258](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710094913.png)
+   ![image-20200710094911258]({{ env.cdn_accelerate }}/20200710094913.png)
 
 **项目详情界面**
 
-![image-20200710091938754](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710091940.png)
+![image-20200710091938754]({{ env.cdn_accelerate }}/20200710091940.png)
 
 ## 书写 .drone.yml 配置文件
 
@@ -332,15 +336,15 @@ git push origin master
 
 **Gogs**
 
-![image-20200710103206262](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710103208.png)
+![image-20200710103206262]({{ env.cdn_accelerate }}/20200710103208.png)
 
 **Drone**
 
-![image-20200710103405063](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710103406.png)
+![image-20200710103405063]({{ env.cdn_accelerate }}/20200710103406.png)
 
-![image-20200710103716309](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710103718.png)
+![image-20200710103716309]({{ env.cdn_accelerate }}/20200710103718.png)
 
-![image-20200710103924129](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710103925.png)
+![image-20200710103924129]({{ env.cdn_accelerate }}/20200710103925.png)
 
 **注：**如果你的构建一直处于等待开始状态，也就是齿轮转圈不成功也不失败。你就要检查一下 agent 容器是否正确的启动和drone 主服务是否能正确的链接到 agent 容器中了。一般来说是主服务没有链接上，一直在等待 agent。
 
@@ -352,11 +356,11 @@ git push origin master
 
 为什么我们要定义一个叫做 log-path 的值，而不是password等真的秘密。一会儿你就知道了
 
-![image-20200710110347778](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710110349.png)
+![image-20200710110347778]({{ env.cdn_accelerate }}/20200710110349.png)
 
 添加完成
 
-![image-20200710110444166](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710110445.png)
+![image-20200710110444166]({{ env.cdn_accelerate }}/20200710110445.png)
 
 #### 在 .drone.yml 中使用秘密
 
@@ -394,7 +398,7 @@ steps:
 
 #### 验证
 
-![image-20200710112713961](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710112714.png)
+![image-20200710112713961]({{ env.cdn_accelerate }}/20200710112714.png)
 
 **注：**因为无法看到原文，所以使用password举例的话并不能验证是否正确。使用一个目录来 ls 则可以判断是否真的读取到了秘密的值
 
@@ -452,13 +456,13 @@ git push origin master
 
 #### 执行结果
 
-![image-20200710135012935](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710135015.png)
+![image-20200710135012935]({{ env.cdn_accelerate }}/20200710135015.png)
 
-![image-20200710135107129](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710135108.png)
+![image-20200710135107129]({{ env.cdn_accelerate }}/20200710135108.png)
 
 执行正确，构建完成。
 
-![image-20200710135930241](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710135931.png)
+![image-20200710135930241]({{ env.cdn_accelerate }}/20200710135931.png)
 
 ## 复合构建任务
 
@@ -513,9 +517,9 @@ steps:
 
 ### 效果
 
-![image-20200710142452894](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710142454.png)
+![image-20200710142452894]({{ env.cdn_accelerate }}/20200710142454.png)
 
-![image-20200710142522447](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710142523.png)
+![image-20200710142522447]({{ env.cdn_accelerate }}/20200710142523.png)
 
 ## 使用 docker-compose 编排容器
 
@@ -593,11 +597,11 @@ Drone 还有相当丰富的插件可以使用，示例：[https://docs.drone.io/
 
 在 Settings 页面的底部，可以生成一个小图标链接，标志当前工程的最近一次构建状态。b格满满hhhhh
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710162450.png)
+![]({{ env.cdn_accelerate }}/20200710162450.png)
 
 一瞬间成就感就来了hhhhh，感觉花两天时间研究 drone 是超值的
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20200710162640.png)
+![]({{ env.cdn_accelerate }}/20200710162640.png)
 
 ## 总结
 
@@ -610,6 +614,8 @@ Drone 还有相当丰富的插件可以使用，示例：[https://docs.drone.io/
 ## 附录
 
 **一键部署脚本**
+
+{#
 
 ```shell
 #!/bin/bash
@@ -652,3 +658,4 @@ docker run -d \
   drone/drone-runner-ssh
 ```
 
+#}

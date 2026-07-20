@@ -15,7 +15,7 @@ tags: ["Intellij SDK"]
 
 先使用gradle 中的 buildPlugin，将插件编译成 zip 包。编译产物一般位于 build/distributions/name-version-SNAPSHOT.zip
 
-![image-20201225151214946](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225151216.png)
+![image-20201225151214946]({{ env.cdn_accelerate }}/20201225151216.png)
 
 ## 提交审核
 
@@ -23,9 +23,9 @@ tags: ["Intellij SDK"]
 
 登陆成功点击 Upload plugin 或直接访问：https://plugins.jetbrains.com/plugin/add 即可进入提交页面。
 
-![image-20201225150810188](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225150812.png)
+![image-20201225150810188]({{ env.cdn_accelerate }}/20201225150812.png)
 
-![image-20201225151026820](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201225151028.png)
+![image-20201225151026820]({{ env.cdn_accelerate }}/20201225151028.png)
 
 上传刚才获得的name-version-SNAPSHOT.zip之后，点击蓝色按键即可提交审核，审核过程一般需要3-5天，有任何变动都将会给你的电子邮件发送信息。
 

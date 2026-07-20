@@ -56,7 +56,7 @@ runtime.SetMutexProfileFraction(1)
 - threadcreate: 系统线程的堆栈跟踪
 - trace: 执行情况辅助跟踪
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1719973130657.png)
+![]({{ env.cdn_accelerate }}/x/1719973130657.png)
 
 以 goroutine 为例，url 为 `http://127.0.0.1:5002/debug/pprof/goroutine?debug=1`, 与源码中注册的路由一致。
 
@@ -64,7 +64,7 @@ runtime.SetMutexProfileFraction(1)
 
 默认为网页展示模式，我们也可以去掉 url 中 `?debug=1` 来访问，将会得到一个文件。
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1719973157411.png)
+![]({{ env.cdn_accelerate }}/x/1719973157411.png)
 
 除了直接在页面上点击下载之外，还有两种方法可以将堆栈情况保存到本地，在其他地方进行分析
 
@@ -120,7 +120,7 @@ go tool pprof http://127.0.0.1:5002/debug/pprof/goroutine
 go tool pprof -svg goroutine >goroutine.svg
 ```
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680574388963.png)
+![]({{ env.cdn_accelerate }}/x/1680574388963.png)
 
 打开 web 网站进行图形化查看
 
@@ -128,7 +128,7 @@ go tool pprof -svg goroutine >goroutine.svg
 go tool pprof --http=:5002 goroutine
 ```
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680575508645.png)
+![]({{ env.cdn_accelerate }}/x/1680575508645.png)
 
 如果监听了公网，则也可以直接分析远程文件
 

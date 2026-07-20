@@ -6,7 +6,7 @@ tags: ["杂项"]
 
 ## MacOS 的 "分配给" 选项
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/clipboard_20220916_020957.png)
+![]({{ env.cdn_accelerate }}/clipboard_20220916_020957.png)
 
 官方文档：https://support.apple.com/zh-cn/guide/mac-help/mh14112/mac
 

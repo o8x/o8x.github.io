@@ -14,7 +14,7 @@ $ sudo dnf -y install neofetch
 
 # 运行neofetch
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/03/5f52273b94c4fb1d855d098977c254b6.png)
+![]({{ env.cdn_accelerate }}/2018/03/5f52273b94c4fb1d855d098977c254b6.png)
 
 # 显示图形化的LOGO
 

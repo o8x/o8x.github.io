@@ -81,6 +81,41 @@ ip route add default via 172.16.3.1 dev ens33
 ip link del br-mirror
 ```
 
+### 多网卡示例
+
+```shell
+# 删除网桥上的 TC 规则（如果存在）
+tc qdisc del dev br-mirror clsact 2>/dev/null || true
+# 重建网桥
+ip link del br-mirror 2>/dev/null || true
+ip link add name br-mirror type bridge
+ip link set br-mirror up
+
+# 将端口加入网桥，并清空IP地址
+for i in {2..6}; do
+    DEV="enp${i}s0"
+    ip link set dev ${DEV} up
+    ip addr flush dev ${DEV}   
+    ip link set ${DEV} master br-mirror
+done
+
+# 创建镜像目标 tap0
+ip link del tap0
+ip tuntap add dev tap0 mode tap
+ip link set tap0 up
+
+# 配置流量镜像到 tap0
+tc qdisc add dev br-mirror clsact
+tc filter add dev br-mirror ingress matchall action mirred egress mirror dev tap0
+tc filter add dev br-mirror egress matchall action mirred egress mirror dev tap0
+```
+
+需要的话可以为网桥配置管理 IP
+
+```shell
+ip addr add 192.168.10.10/22 dev br-mirror
+```
+
 ## 载波
 
 TAP 设备只有被用户态程序打开后内核才会把它置为 LOWER_UP（有载波），否则所有送往它的数据包都会被 dev_queue_xmit 直接丢弃

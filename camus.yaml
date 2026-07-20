@@ -1,16 +1,20 @@
 camus:
     source_dir: posts
-    output_dir: html
     assets_dir: assets
-    sitemap: true
-    theme: pixel
-    filename_case: keep
-    toc_format: json
-    domain_name: stdout.com.cn
+    output:
+        meta: true
+        sitemap: true
+        filename_case: keep
+        dest_dir: html
+    deploy:
+        protocol: https://
+        domain_name: stdout.com.cn
+        path_prefix:
     render:
-        static: inja
-        engine: cmark-gfm
-        options:
+        theme: pixel
+        html_engine: default
+        markdown_engine: cmark-gfm
+        markdown_options:
             - DEFAULT
             - VALIDATE_UTF8
             - SMART

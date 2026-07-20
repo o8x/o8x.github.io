@@ -20,7 +20,7 @@ on:
                 description: 'Camus version'
                 required: false
                 type: string
-                default: 'v8.5.0'
+                default: 'v11.0.0'
 
 permissions:
     pages: write
@@ -44,8 +44,8 @@ jobs:
 
             -   name: Install Camus-release
                 env:
-                    CAMUS_VERSION: ${{ github.event.inputs.version || 'v8.5.0' }}
-                if: github.event.inputs.type == 'release'
+                    CAMUS_VERSION: ${{ github.event.inputs.version || 'v11.0.0' }}
+                if: github.event.inputs.type != 'test'
                 run: |
                     curl -Lo camus.deb https://github.com/o8x/camus/releases/download/${CAMUS_VERSION}/camus-${CAMUS_VERSION}_linux6.17.0-1020-azure-x86_64.deb
                     dpkg -i camus.deb

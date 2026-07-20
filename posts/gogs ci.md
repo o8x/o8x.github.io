@@ -224,7 +224,7 @@ root      2859  0.0  0.0  51752  3448 pts/0    Rs+  09:21   0:00 ps aux
 docker run -d --privileged -p 8080:80 first-build
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/149cdfb69defd39fb460f96c4e7f476a.png)
+![]({{ env.cdn_accelerate }}/2019/04/149cdfb69defd39fb460f96c4e7f476a.png)
 
 ---------------------------
 
@@ -236,18 +236,18 @@ docker run -d --privileged -p 8080:80 first-build
 > [https://cr.console.aliyun.com/cn-zhangjiakou/instances/repositories](https://cr.console.aliyun.com/cn-zhangjiakou/instances/repositories)
 
 界面大概长像这样
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/7a1050655a4449c7531d2ac62f7aaa85.png)
+![]({{ env.cdn_accelerate }}/2019/04/7a1050655a4449c7531d2ac62f7aaa85.png)
 
 - 使用镜像加速器
 
 点开左下角的镜像加速器[https://cr.console.aliyun.com/cn-zhangjiakou/instances/mirrors](https://cr.console.aliyun.com/cn-zhangjiakou/instances/mirrors)
 ，你会看到你专属的加速链接
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/59f2b7646e26c97a4715700967a21a6f.png)
+![]({{ env.cdn_accelerate }}/2019/04/59f2b7646e26c97a4715700967a21a6f.png)
 
 > 找到你的操作系统，逐条执行即可，本文使用 Ubuntu 版本．
 > 可见执行很顺利，没有任何异常
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/66869bfc8b3daca4cb8ae0c1dba214bd.png)
+![]({{ env.cdn_accelerate }}/2019/04/66869bfc8b3daca4cb8ae0c1dba214bd.png)
 
 - 登录到阿里云docker仓库
 
@@ -266,7 +266,7 @@ Login Succeeded
 
 > 公开和私有是指镜像是否可以在阿里云镜像市场中被大众查看和是否能够不需要任何权限拉取
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/81d4bbbd66369f320252243e1ae4659e.png)
+![]({{ env.cdn_accelerate }}/2019/04/81d4bbbd66369f320252243e1ae4659e.png)
 
 - 建立仓库
 
@@ -279,15 +279,15 @@ Login Succeeded
 
 命名空间选择刚才创建好的，摘要即为镜像简介．
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/b478f094bf761b80290157680ee53cce.png)
+![]({{ env.cdn_accelerate }}/2019/04/b478f094bf761b80290157680ee53cce.png)
 
 点击下一步，代码源选择本地仓库
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/82b3930920ec638bb070436dd51fde19.png)
+![]({{ env.cdn_accelerate }}/2019/04/82b3930920ec638bb070436dd51fde19.png)
 
 点击创建镜像仓库之后，就会发现页面上多了一行数据，说明创建成功
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/6bae615bf44f1ff5f1707bde58c94b69.png)
+![]({{ env.cdn_accelerate }}/2019/04/6bae615bf44f1ff5f1707bde58c94b69.png)
 
 鼠标放到那个下载一样的图标上，会看到仓库的专属地址
 
@@ -314,10 +314,10 @@ docker tag 3482e8529a90 registry.cn-zhangjiakou.aliyuncs.com/leasn-docker/learn-
 sudo docker push registry.cn-zhangjiakou.aliyuncs.com/leasn-docker/learn-docker
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/2199353665a55c00b2952480e23714e4.png)
+![]({{ env.cdn_accelerate }}/2019/04/2199353665a55c00b2952480e23714e4.png)
 等所有的 Pushing 运行结束之后我们会发现[阿里云仓库](https://cr.console.aliyun.com/repository/cn-zhangjiakou/leasn-docker/learn-docker/images)中多了一个版本．
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/6fd18dbbfaa43a5abf7d39a86b009f01.png)
+![]({{ env.cdn_accelerate }}/2019/04/6fd18dbbfaa43a5abf7d39a86b009f01.png)
 
 至此，镜像已经推送成功．我们已经可以基于阿里云的支持，在全世界范围内使用我们的镜像．
 
@@ -375,7 +375,7 @@ http {
 
 在当前目录建立我们的工程，并且假装我们的工程只有一个文件，它位于./proj
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/10ddb87f6917a95f41f4e6781d56271b.png)
+![]({{ env.cdn_accelerate }}/2019/04/10ddb87f6917a95f41f4e6781d56271b.png)
 
 复制我们的工程到镜像里并为运行目录加权
 
@@ -403,7 +403,7 @@ docker run --privileged -d -p 8080:80 773ed8872493
 
 如果不出意外，我们已经可以在本地的 127.0.0.1:8080 中看到 phpinfo() 了
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/2a54fe102d4b0b7ea52293c7709efac6.png)
+![]({{ env.cdn_accelerate }}/2019/04/2a54fe102d4b0b7ea52293c7709efac6.png)
 
 既然phpinfo已经看到了，那么如何让整个工程跑起来我就不赘述了．
 
@@ -481,7 +481,7 @@ services:
 docker-compose up [docker-learn] [--build] [--force-recreate]
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2019/04/f513bcc6b1467f0516550c126f9e1495.png)
+![]({{ env.cdn_accelerate }}/2019/04/f513bcc6b1467f0516550c126f9e1495.png)
 
 我们发现现在访问 127.0.0.1:8080 仍然可以看到 phpinfo
 

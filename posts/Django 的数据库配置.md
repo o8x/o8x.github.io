@@ -39,7 +39,7 @@ DATABASES = {
 
 *模型文件*
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2017/12/13608cadb9e6347834103cefbd33deb3.png)
+![]({{ env.cdn_accelerate }}/2017/12/13608cadb9e6347834103cefbd33deb3.png)
 
 **使用模型文件**
 

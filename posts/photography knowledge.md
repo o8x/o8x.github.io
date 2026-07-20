@@ -16,7 +16,7 @@ tags: ["杂项"]
 
 ## 镜头
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680159761869.png)
+![]({{ env.cdn_accelerate }}/x/1680159761869.png)
 
 遮光罩，防止炫光。花瓣形/平头形
 
@@ -26,7 +26,7 @@ tags: ["杂项"]
 
 ### 焦距
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680163224175.png)
+![]({{ env.cdn_accelerate }}/x/1680163224175.png)
 
 焦距越短，视角越大，看到的范围越大，越广阔，单个主体占比越小。焦距短则反之
 
@@ -100,7 +100,7 @@ tags: ["杂项"]
 
 蓝色表示取景的动态范围，灰色框表示相机宽容度。
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680165120166.png)
+![]({{ env.cdn_accelerate }}/x/1680165120166.png)
 
 宽容度：
 
@@ -112,7 +112,7 @@ tags: ["杂项"]
 
 宽容度能够容纳动态范围时，可以在大光比时进行细节保护操作：
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680165244428.png)
+![]({{ env.cdn_accelerate }}/x/1680165244428.png)
 
 ## 格式
 
@@ -122,7 +122,7 @@ RAW
 
 未经处理，未经压缩的，原始的格式，类似数码底片，可调节空间非常大。
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680166224365.png)
+![]({{ env.cdn_accelerate }}/x/1680166224365.png)
 
 JPEG
 
@@ -146,6 +146,6 @@ JPEG
 
 图中机器为佳能 5D4
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680167140972.png)
+![]({{ env.cdn_accelerate }}/x/1680167140972.png)
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1680167194324.png)
+![]({{ env.cdn_accelerate }}/x/1680167194324.png)

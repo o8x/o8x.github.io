@@ -16,7 +16,7 @@ java [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http:/
 
 - 下载安装包
 
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/2ea20d9628f1eda14d55d9317ff836e3.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/2ea20d9628f1eda14d55d9317ff836e3.png)
 
 - 传输到服务器中 , 如果是linux里直接下载则可以忽略这一步
 
@@ -41,7 +41,7 @@ java [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http:/
 cd /opt/ && ls | xargs -I {} tar xzvf {} && rm -f ./*.tar.gz
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/00defb7f3681677d16dfba17b2b11a27.png)
+![]({{ env.cdn_accelerate }}/2018/08/00defb7f3681677d16dfba17b2b11a27.png)
 
 因为es是不能运行在root用户的 , 即使可以也不建议使用 root     
 因此, 我们可以单独创建一个用户来运行elk
@@ -84,7 +84,7 @@ source /etc/bashrc
 java -version
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/0b61d2f96ecfadad6e241beb65d239ae.png)
+![]({{ env.cdn_accelerate }}/2018/08/0b61d2f96ecfadad6e241beb65d239ae.png)
 
 此时java安装成功
 
@@ -117,7 +117,7 @@ sed -i "s/#\ http.port/http.port/" /opt/elasticsearch-6.3.2/config/elasticsearch
 
 如果遇到这个错误
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/1e74810b8342aa4085e8e3c375e5e306.png)
+![]({{ env.cdn_accelerate }}/2018/08/1e74810b8342aa4085e8e3c375e5e306.png)
 
 执行命令：
 
@@ -128,11 +128,11 @@ sysctl -a | grep vm.max_map_count
 exit
 ```
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/994c57401fdff6497a2f72955354ad38.png)
+![]({{ env.cdn_accelerate }}/2018/08/994c57401fdff6497a2f72955354ad38.png)
 
 再尝试启动 , 如果遇到这个错误
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/1572e2c4bd8a59a663bbd8f941cebb34.png)
+![]({{ env.cdn_accelerate }}/2018/08/1572e2c4bd8a59a663bbd8f941cebb34.png)
 
 回到root账户 , 修改/etc/security/limits.conf 添加如下行并重启计算机 :
 
@@ -142,7 +142,7 @@ elk        soft    nofile           262144
 ```
 
 再尝试启动 , 一般会看到这个东西
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/97dc7bb84c2996e1a8ae58ef380280a0.png)
+![]({{ env.cdn_accelerate }}/2018/08/97dc7bb84c2996e1a8ae58ef380280a0.png)
 
 此时es启动成功 , 然后我们利用curl测试一下
 
@@ -152,7 +152,7 @@ curl 127.0.0.1:9200
 
 如果返回这个东西说明真的成功了 , 返回别的这里不讨论 , 一律视为失败 , 请参考日志进行排错
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/b49926630d4712336fc76c3894e739dd.png)
+![]({{ env.cdn_accelerate }}/2018/08/b49926630d4712336fc76c3894e739dd.png)
 
 如果需要在浏览器访问, 还需要关闭防火墙和selinux
 
@@ -165,7 +165,7 @@ exit
 
 浏览器访问
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/636dfbdefdf917f129ae10cd3f4724e2.png)
+![]({{ env.cdn_accelerate }}/2018/08/636dfbdefdf917f129ae10cd3f4724e2.png)
 
 至此es安装和启动完毕
 
@@ -209,7 +209,7 @@ screen -S logstash
 
 如果没有error , 就启动完成了
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/77d011a3d1d81358b0965c0ba985e5d2.png)
+![]({{ env.cdn_accelerate }}/2018/08/77d011a3d1d81358b0965c0ba985e5d2.png)
 
 如果需要测试是否真的启动完成 , natstat 和 telnet 这两个命令都可以
 
@@ -244,11 +244,11 @@ sed -i "s/#server.host:\ \"localhost\"/server.host:\ \"192.168.1.147\"/" /opt/ki
 
 返回如下信息则说明启动成功
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/6200a76fe5891ae61f03c0c94f5926e7.png)
+![]({{ env.cdn_accelerate }}/2018/08/6200a76fe5891ae61f03c0c94f5926e7.png)
 
 打开浏览器 输入http://192.168.1.147:5601 可以看到如下画面
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/117178fb813a89b92d60287c07233b52.png)
+![]({{ env.cdn_accelerate }}/2018/08/117178fb813a89b92d60287c07233b52.png)
 
 至此kibana安装和启动完毕
 
@@ -271,17 +271,17 @@ Ctrl A + d
 
 - 这是一份普通的nginx日志
 
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/c9de47cf3622c095d7a3a44a2f356cb7.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/c9de47cf3622c095d7a3a44a2f356cb7.png)
 
 
 - 用screen -r回到logstash会话
 
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/f866c7bb6113fbd6bfb6645c41fde156.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/f866c7bb6113fbd6bfb6645c41fde156.png)
 
 
 - 界面一闪而过 , 回到了这里
 
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/6349e1aee52f0463251d289aa041c92a.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/6349e1aee52f0463251d289aa041c92a.png)
 
 
 - ctrl +c 停止它按上方向键 , 再启动它
@@ -291,23 +291,23 @@ Ctrl A + d
 
 - 在首页创建通配符索引 logstash*
 
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/ada511c00496a9f6ce40060deaa189d5.png)
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/77b7d19031e5b8790d2ef7cd55119bb0.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/ada511c00496a9f6ce40060deaa189d5.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/77b7d19031e5b8790d2ef7cd55119bb0.png)
 
 - 如果next是可点击的 , 那就到了这里
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/a64c1feb48c40c7eb1379a311c68d657.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/a64c1feb48c40c7eb1379a311c68d657.png)
 
 
 - 选择@timestamp 继续下一步
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/b68bd737eb06357a4fb4ce918fbc0031.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/b68bd737eb06357a4fb4ce918fbc0031.png)
 
 
 - 然后就开启ELK的世界了
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/14ee8a3abba4b5ef7137fe3e9ffa36b8.png)
+![]({{ env.cdn_accelerate }}/2018/08/14ee8a3abba4b5ef7137fe3e9ffa36b8.png)
 
 - 首页如下
-  ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/c3b099c6125629173b602064bf315a86.png)
+  ![]({{ env.cdn_accelerate }}/2018/08/c3b099c6125629173b602064bf315a86.png)
 
 ## filebeat
 
@@ -315,7 +315,7 @@ Ctrl A + d
 
 和准备工作一样 , 从官网获得filebeat的安装包并解压
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/f0675c820c42e4be85c9e9fec9fc5e06.png)
+![]({{ env.cdn_accelerate }}/2018/08/f0675c820c42e4be85c9e9fec9fc5e06.png)
 
 ### 修改配置
 
@@ -405,12 +405,12 @@ while true ; do cat /tmp/tmp.log >> /var/log/dev.log ; sleep 1 ; done
 
 然后我们查看浏览器的kibana , 右上角倒数第二个按钮, 开启自动刷新并选择五秒
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/679f8dd05cf1daecdb1279d9cba57d7f.png)
+![]({{ env.cdn_accelerate }}/2018/08/679f8dd05cf1daecdb1279d9cba57d7f.png)
 
 如果一切无误, 坐等5秒 , 就会发现有新的数据展示在页面上
 > 此时可以明显的观察到 , 红框的时间部分每隔5秒就会变化一次
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/96439dd760260f29448babbbe25d1392.png)
+![]({{ env.cdn_accelerate }}/2018/08/96439dd760260f29448babbbe25d1392.png)
 
 
 > 因为我们已经保证了没有 filebeat 时elk平台工作是正常的     

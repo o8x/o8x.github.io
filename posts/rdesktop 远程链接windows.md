@@ -44,12 +44,12 @@ tags: [ "Linux" ]
 
 1. **配置允许远程协助**
 
-   ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/06/607928d78a773897bbb9ab329e29a76c.png)
+   ![]({{ env.cdn_accelerate }}/2018/06/607928d78a773897bbb9ab329e29a76c.png)
 
 1. **编辑组策略配置允许空密码登录 ，不使用空密码可忽略**
 
     - 打开组策略
-      ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/06/e074991f7fb7e3643ded0007885456e4.png)
+      ![]({{ env.cdn_accelerate }}/2018/06/e074991f7fb7e3643ded0007885456e4.png)
 
     - 禁用空密码只能进行控制台登录
-      ![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/06/c95416457271e29e61e24a8e00925232.png)
+      ![]({{ env.cdn_accelerate }}/2018/06/c95416457271e29e61e24a8e00925232.png)

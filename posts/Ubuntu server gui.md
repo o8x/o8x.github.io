@@ -22,7 +22,7 @@ reboot
 
 安装完成
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/4EB13783-8258-4237-8DB3-CDBF1C5E22B4.png)
+![]({{ env.cdn_accelerate }}/4EB13783-8258-4237-8DB3-CDBF1C5E22B4.png)
 
 ## 卸载
 
@@ -34,4 +34,4 @@ reboot
 
 又回到了字符界面
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/Xnip2022-08-05_10-09-24.jpg)
+![]({{ env.cdn_accelerate }}/Xnip2022-08-05_10-09-24.jpg)

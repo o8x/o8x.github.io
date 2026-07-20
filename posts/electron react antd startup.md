@@ -107,7 +107,7 @@ open http://localhost:5173
 
 可以看到是来自 Antd 的按钮效果。
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1678865547143.png)
+![]({{ env.cdn_accelerate }}/x/1678865547143.png)
 
 ## Electron
 
@@ -148,7 +148,7 @@ app.on("window-all-closed", () => {
 npm run start
 ```
 
-![](https://cdn-1252251443.cos.ap-nanjing.myqcloud.com/x/1678865491515.png)
+![]({{ env.cdn_accelerate }}/x/1678865491515.png)
 
 ## 如何 Electron 判断是否处于生产环境
 

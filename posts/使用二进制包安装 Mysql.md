@@ -76,8 +76,8 @@ sudo su
 
 netstat -apn | grep 3306
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/03/fb9480d7b9bd2e998ca7911b7008086c.png)
+![]({{ env.cdn_accelerate }}/2018/03/fb9480d7b9bd2e998ca7911b7008086c.png)
 
 #### 启动
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/03/483d86ac3e7e487d7041ddef3bb8972f.png)
+![]({{ env.cdn_accelerate }}/2018/03/483d86ac3e7e487d7041ddef3bb8972f.png)

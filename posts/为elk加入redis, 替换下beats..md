@@ -22,7 +22,7 @@ tags: [ "Linux", "elk" ]
 
 # 流程图
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/Drawing2-1.png)
+![]({{ env.cdn_accelerate }}/2018/08/Drawing2-1.png)
 
 # redis
 
@@ -85,7 +85,7 @@ systemctl redis start
 
 ### 启动完成就像这样 , 然后回车即可
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/d68502f692c25ce1eeab81d16b9244fb.png)
+![]({{ env.cdn_accelerate }}/2018/08/d68502f692c25ce1eeab81d16b9244fb.png)
 
 # 配置elk
 
@@ -237,7 +237,7 @@ screen -S elk
 然后我们再看一看熟悉的kibana , 并且做一些事情
 > 如果启动完成但是看不到kibana ,就回到root关闭防火墙 `systemctl stop firewalld`
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/10a8bd7143b381f4f30fd9eea325b573.png)
+![]({{ env.cdn_accelerate }}/2018/08/10a8bd7143b381f4f30fd9eea325b573.png)
 
 # 测试elk + redis
 
@@ -284,26 +284,26 @@ php ./pushToRedis.php
 
 假设链接没有问题 , 你会在elk那个终端里看到输出 , 我这里因为配置了json却输入的字符串 , 才会输出的全是错误
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/48058c4dd5316bd740b6902e29ca495e.png)
+![]({{ env.cdn_accelerate }}/2018/08/48058c4dd5316bd740b6902e29ca495e.png)
 
 ### 在kibana建立redis索引
 
 > 来到 management 部分
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/95fd2fd7c7f91b4b369bced1745d146a.png)
+![]({{ env.cdn_accelerate }}/2018/08/95fd2fd7c7f91b4b369bced1745d146a.png)
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/af19c683cb1aec32e72ff1e8d530500b.png)
+![]({{ env.cdn_accelerate }}/2018/08/af19c683cb1aec32e72ff1e8d530500b.png)
 
 一路下一步 ,创建完成
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/b28e7e1cb4d4e18344b67f298a1320d7.png)
+![]({{ env.cdn_accelerate }}/2018/08/b28e7e1cb4d4e18344b67f298a1320d7.png)
 
 回到首页(一定到确保左上角是redis... 如果不是就点名字旁边的按钮来切换到redis) ,然后打开自动刷新 , 数据就会源源不断的渲染到页面上了
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/c215e77c6e9cb18c48e75ba6a0c8ef5a.png)
+![]({{ env.cdn_accelerate }}/2018/08/c215e77c6e9cb18c48e75ba6a0c8ef5a.png)
 
 并且我们发现 , 左侧是筛选条件和右侧的数据都多了很多字段 , 这就是修改配置文件时 ,加入的filter段的功劳
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/08/e9a8c61874e2cc2d427a42fc543eb9f4.png)
+![]({{ env.cdn_accelerate }}/2018/08/e9a8c61874e2cc2d427a42fc543eb9f4.png)
 
 # 大功告成

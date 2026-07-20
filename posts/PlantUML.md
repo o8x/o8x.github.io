@@ -6,7 +6,7 @@ tags: ["杂项"]
 
 *序列图*
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2020/05-26-outofstack.png)
+![]({{ env.cdn_accelerate }}/2020/05-26-outofstack.png)
 
 > 代码以及说明
 

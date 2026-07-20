@@ -12,10 +12,10 @@ tags: ["杂项"]
 
 参考 php://input 的使用方法测试 php://output
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/e7057f3e89d3245f591dfe180eead1c8.png)
+![]({{ env.cdn_accelerate }}/2018/09/e7057f3e89d3245f591dfe180eead1c8.png)
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/ba3921bb465c41630d400ea5e8f06d40.png)
+![]({{ env.cdn_accelerate }}/2018/09/ba3921bb465c41630d400ea5e8f06d40.png)
 
 ### 结果
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/09/7b6d0dd660d6aa1cd3cacf7a636d0bd6.png)
+![]({{ env.cdn_accelerate }}/2018/09/7b6d0dd660d6aa1cd3cacf7a636d0bd6.png)

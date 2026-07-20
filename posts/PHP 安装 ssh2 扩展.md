@@ -46,7 +46,7 @@ echo "extension=/www/server/php/70/lib/php/extensions/no-debug-non-zts-20151012/
 
 #### 重启php-fpm
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/12/950d844e6ef816629e2356dc60bd4fcf.png)
+![]({{ env.cdn_accelerate }}/2018/12/950d844e6ef816629e2356dc60bd4fcf.png)
 
 ## windows
 
@@ -54,11 +54,11 @@ echo "extension=/www/server/php/70/lib/php/extensions/no-debug-non-zts-20151012/
 
 到 [pecl](http://pecl.php.net/package/ssh2/1.1.2/windows) 下载你对应版本的 扩展dll
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/12/ad46656aaac7de5a0c49d5c3abdbe1f1.png)
+![]({{ env.cdn_accelerate }}/2018/12/ad46656aaac7de5a0c49d5c3abdbe1f1.png)
 
 注意 TS 和 NTS 对应 phpinfo() 中的 PHP Extension Build 项
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/12/7f578a4d7db4c2a8c5085bffa89097b9.png)
+![]({{ env.cdn_accelerate }}/2018/12/7f578a4d7db4c2a8c5085bffa89097b9.png)
 
 ### 安装
 
@@ -71,6 +71,6 @@ extension = "C:\$PATH\php\ext\php_ssh2.dll"
 
 #### 重启php
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2018/12/7d4b9e5c4a80b9136514c8dec78797cd.png)
+![]({{ env.cdn_accelerate }}/2018/12/7d4b9e5c4a80b9136514c8dec78797cd.png)
 
 # 大功告成
