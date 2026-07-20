@@ -1,6 +1,6 @@
 ---
-display-name: 如何在 go mod 中使用私有仓库
-date: 2020-11-10 14:58:21
+title: 如何在 go mod 中使用私有仓库
+create-time: 2020-11-10 14:58:21
 tags: ["Golang"]
 ---
 
@@ -8,9 +8,9 @@ tags: ["Golang"]
 
 申请 read_repository 权限的 gitlab AccessToken
 
-![image-20201110150456292](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201110150459.png)
+![image-20201110150456292](${IMAGE_CDN}/20201110150459.png)
 
-![image-20201110150617958](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/20201110150619.png)
+![image-20201110150617958](${IMAGE_CDN}/20201110150619.png)
 
 ## 修改 repo 代理
 

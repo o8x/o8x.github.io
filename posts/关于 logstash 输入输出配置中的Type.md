@@ -1,6 +1,6 @@
 ---
-display-name: 关于 logstash 输入输出配置中的Type
-date: 2018-09-21 09:16:51
+title: 关于 logstash 输入输出配置中的Type
+create-time: 2018-09-21 09:16:51
 tags: ["杂项"]
 ---
 假设我们的数据是json格式，并且可以利用其中的 project 字段区分数据来源，那我们可以这样配置输出

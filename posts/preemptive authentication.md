@@ -1,6 +1,6 @@
 ---
-display-name: 抢先验证 (preemptive authentication)
-date: 2023-01-09 09:39:00
+title: 抢先验证 (preemptive authentication)
+create-time: 2023-01-09 09:39:00
 ---
 
 ## 符合规范的HTTP流程

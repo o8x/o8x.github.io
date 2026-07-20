@@ -1,6 +1,6 @@
 ---
-display-name: Linux 安装自定义 systemctl 服务
-date: 2020-05-26 11:13:58
+title: Linux 安装自定义 systemctl 服务
+create-time: 2020-05-26 11:13:58
 tags: [ "Linux" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
-display-name: 命令行模式启动 VMware Fusion 虚拟机
-date: 2020-09-07
+title: 命令行模式启动 VMware Fusion 虚拟机
+create-time: 2020-09-07
 tags: ["杂项"]
 ---
 

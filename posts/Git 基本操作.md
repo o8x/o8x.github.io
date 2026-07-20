@@ -1,6 +1,6 @@
 ---
-display-name: git 基本操作
-date: 2020-06-12 13:46:06
+title: git 基本操作
+create-time: 2020-06-12 13:46:06
 tags: [ "git" ]
 ---
 

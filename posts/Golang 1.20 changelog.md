@@ -1,6 +1,6 @@
 ---
-display-name: Go 1.20 更新内容
-date: 2023-02-11 09:19:24
+title: Golang 1.20 更新内容
+create-time: 2023-02-11 09:19:24
 tags: ["Golang"]
 ---
 > [Go 1.20 is released!](https://go.dev/blog/go1.20)

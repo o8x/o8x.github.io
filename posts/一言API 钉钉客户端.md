@@ -1,7 +1,7 @@
 ---
-display-name: 一言API 钉钉客户端
+title: 一言API 钉钉客户端
 draft: false
-date: 2020-06-05 11:17:58
+create-time: 2020-06-05 11:17:58
 tags: ["杂项"]
 ---
 
@@ -62,4 +62,4 @@ $ ./dingtalk.py [--api-url https://v1.hitokoto.cn] --robot-url https://oapi.ding
 
 ## 调用效果
 
-![-w500](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2020/05-28-15906541899926.jpg)
+![-w500](${IMAGE_CDN}/2020/05-28-15906541899926.jpg)

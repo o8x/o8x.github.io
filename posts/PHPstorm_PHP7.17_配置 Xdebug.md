@@ -1,6 +1,6 @@
 ---
-display-name: PHPstorm + PHP7.17 配置调试器Xdebug
-date: 2017-08-26 11:54:26
+title: PHPstorm + PHP7.17 配置调试器Xdebug
+create-time: 2017-08-26 11:54:26
 tags: ["php"]
 ---
 
@@ -44,7 +44,7 @@ zend_extension = "/path/xdebug.so"
 
 #### 重启 php-fpm
 
-![](https://alextech-1252251443.cos.ap-guangzhou.myqcloud.com/2017/08/2017-08-26-11-35-06-的屏幕截图.png)
+![](${IMAGE_CDN}/2017/08/2017-08-26-11-35-06-的屏幕截图.png)
 
 #### 配置 phpstorm
 

@@ -1,6 +1,6 @@
 ---
-display-name: nginx 配置 letsencrypt 并自动续期
-date: 2020-05-26 20:57:42
+title: nginx 配置 letsencrypt 并自动续期
+create-time: 2020-05-26 20:57:42
 tags: ["Linux"]
 ---
 
@@ -118,7 +118,7 @@ Location: https://stdout.com.com/
 
 HTTP/2 200
 server: nginx/1.14.1
-date: Tue, 09 Jun 2020 03:21:16 GMT
+create-time: Tue, 09 Jun 2020 03:21:16 GMT
 content-type: text/html
 content-length: 11445
 last-modified: Mon, 08 Jun 2020 10:02:20 GMT

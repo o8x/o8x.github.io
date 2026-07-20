@@ -1,6 +1,6 @@
 ---
-display-name: wget 流氓镜像下载整站
-date: 2017-11-09 13:45:01
+title: wget 流氓镜像下载整站
+create-time: 2017-11-09 13:45:01
 tags: [ "Linux" ]
 ---
 

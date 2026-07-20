@@ -1,6 +1,6 @@
 ---
-display-name: 利用 (git rebase, git cherry-pick) 迁移多次提交到新分支
-date: 2019-01-23 10:04:57
+title: 利用 (git rebase, git cherry-pick) 迁移多次提交到新分支
+create-time: 2019-01-23 10:04:57
 tags: ["git"]
 ---
 

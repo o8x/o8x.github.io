@@ -1,6 +1,6 @@
 ---
-display-name: 如何批量替换git commit中的开发者信息
-date: 2020-05-26 11:28:52
+title: 如何批量替换git commit中的开发者信息
+create-time: 2020-05-26 11:28:52
 tags: ["git"]
 ---
 

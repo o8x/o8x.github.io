@@ -1,6 +1,6 @@
 ---
-display-name: 使用 Core Dump 调试 C++
-date: 2024-08-19 09:37:50
+title: 使用 Core Dump 调试 C++
+create-time: 2024-08-19 09:37:50
 tags: ["C++"]
 ---
 

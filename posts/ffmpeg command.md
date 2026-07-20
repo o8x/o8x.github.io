@@ -1,6 +1,6 @@
 ---
-display-name: ffmpeg 常用命令  
-date: 2023-04-17 09:44:09
+title: ffmpeg 常用命令  
+create-time: 2023-04-17 09:44:09
 tags: ["Linux"]
 ---
 
