@@ -1,6 +1,6 @@
 ---
-display-name: 神奇的lsof
-date: 2018-09-20 09:30:53
+title: 神奇的lsof
+create-time: 2018-09-20 09:30:53
 tags: [ "Linux" ]
 ---
 

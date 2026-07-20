@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核虚拟文件系统 procfs
-date: 2022-06-18 09:54:23
+title: Linux 内核虚拟文件系统 procfs
+create-time: 2022-06-18 09:54:23
 tags: ["Linux"]
 ---
 

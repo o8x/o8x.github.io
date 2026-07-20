@@ -1,6 +1,6 @@
 ---
-display-name: macos 基本操作
-date: 2020-05-26 11:29:39
+title: macos 基本操作
+create-time: 2020-05-26 11:29:39
 tags: ["杂项"]
 ---
 

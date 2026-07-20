@@ -1,6 +1,6 @@
 ---
-display-name: 部署 Docker Registry  
-date: 2024-06-16 20:04:10
+title: 部署 Docker Registry  
+create-time: 2024-06-16 20:04:10
 tags: ["docker"]
 ---
 

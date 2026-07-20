@@ -1,6 +1,6 @@
 ---
-display-name: 如何使用 gitmoji 将提交记录变的有趣
-date: 2020-05-26 11:25:39
+title: 如何使用 gitmoji 将提交记录变的有趣
+create-time: 2020-05-26 11:25:39
 tags: ["git"]
 ---
 
