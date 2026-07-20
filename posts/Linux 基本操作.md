@@ -1,6 +1,6 @@
 ---
-display-name: Linux 基本操作
-date: 2020-06-09 14:40:06
+title: Linux 基本操作
+create-time: 2020-06-09 14:40:06
 tags: [ "Linux" ]
 ---
 

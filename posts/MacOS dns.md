@@ -1,6 +1,6 @@
 ---
-display-name: MacOS DNS配置  
-date: 2023-05-22 14:24:39
+title: MacOS DNS配置  
+create-time: 2023-05-22 14:24:39
 ---
 
 查看打开的所有网卡

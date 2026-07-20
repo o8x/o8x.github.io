@@ -1,7 +1,7 @@
 ---
 short-path: linux-cxx-perf
-display-name: Linux 下使用 Perf 分析 C++ 程序性能
-date: 2025-03-27 12:16:00
+title: Linux 下使用 Perf 分析 C++ 程序性能
+create-time: 2025-03-27 12:16:00
 visibility: open
 ---
 

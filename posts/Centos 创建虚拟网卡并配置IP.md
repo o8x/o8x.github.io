@@ -1,6 +1,6 @@
 ---
-display-name: Centos 创建虚拟网卡并配置IP
-date: 2020-07-22 09:37:31
+title: Centos 创建虚拟网卡并配置IP
+create-time: 2020-07-22 09:37:31
 tags: [ "Linux", "CentOS" ]
 ---
 

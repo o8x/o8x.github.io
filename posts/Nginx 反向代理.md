@@ -1,6 +1,6 @@
 ---
-display-name: Nginx 反向代理
-date: 2018-06-12 23:24:52
+title: Nginx 反向代理
+create-time: 2018-06-12 23:24:52
 tags: [ "Linux" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
-display-name: Python 基础语法
-date: 2017-09-02 16:18:03
+title: Python 基础语法
+create-time: 2017-09-02 16:18:03
 tags: ["杂项"]
 ---
 

@@ -1,6 +1,6 @@
 ---
-display-name: 使用 docker 部署 rabbitmq 并开启web管理界面
-date: 2019-04-25 17:37:50
+title: 使用 docker 部署 rabbitmq 并开启web管理界面
+create-time: 2019-04-25 17:37:50
 tags: [ "Linux" ]
 ---
 

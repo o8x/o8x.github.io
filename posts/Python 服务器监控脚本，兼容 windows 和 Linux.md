@@ -1,6 +1,6 @@
 ---
-display-name: python 服务器监控脚本，兼容 windows 和 linux
-date: 2018-12-05 17:42:04
+title: python 服务器监控脚本，兼容 windows 和 linux
+create-time: 2018-12-05 17:42:04
 tags: ["Python"]
 ---
 

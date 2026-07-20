@@ -1,6 +1,6 @@
 ---
-display-name: 在 php 中使用 ssh2 函数连接服务器并执行命令
-date: 2018-12-07 09:57:31
+title: 在 php 中使用 ssh2 函数连接服务器并执行命令
+create-time: 2018-12-07 09:57:31
 tags: ["php"]
 ---
 

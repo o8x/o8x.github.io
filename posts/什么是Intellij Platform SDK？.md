@@ -1,6 +1,6 @@
 ---
-display-name: 什么是 Intellij Platform SDK ？
-date: 2020-11-21 11:53:31
+title: 什么是 Intellij Platform SDK ？
+create-time: 2020-11-21 11:53:31
 tags: ["Intellij SDK"]
 ---
 

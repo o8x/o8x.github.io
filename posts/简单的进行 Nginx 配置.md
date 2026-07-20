@@ -1,7 +1,7 @@
 ---
-display-name: 简单的进行 nginx 配置
+title: 简单的进行 nginx 配置
 draft: false
-date: 2020-05-27 20:25:21
+create-time: 2020-05-27 20:25:21
 tags: ["Linux"]
 ---
 

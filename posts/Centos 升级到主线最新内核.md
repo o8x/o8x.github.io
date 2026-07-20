@@ -1,7 +1,7 @@
 ---
-display-name: Centos 升级到主线最新内核
+title: Centos 升级到主线最新内核
 draft: false
-date: 2020-08-19 08:40:26
+create-time: 2020-08-19 08:40:26
 tags: ["Linux"]
 ---
 

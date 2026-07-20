@@ -1,6 +1,6 @@
 ---
-display-name: Ubuntu/Debian 升级 Linux 内核
-date: 2022-06-21 10:02:16
+title: Ubuntu/Debian 升级 Linux 内核
+create-time: 2022-06-21 10:02:16
 tags: [ "Linux" ]
 ---
 

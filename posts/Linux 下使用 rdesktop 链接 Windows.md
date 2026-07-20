@@ -1,7 +1,7 @@
 ---
-display-name: linux 下使用 rdesktop 链接 Windows
+title: linux 下使用 rdesktop 链接 Windows
 draft: false
-date: 2020-06-18 10:38:23
+create-time: 2020-06-18 10:38:23
 tags: [ "Linux" ]
 ---
 

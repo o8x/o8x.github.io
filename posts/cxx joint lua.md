@@ -1,6 +1,6 @@
 ---
-display-name: C++ 与 lua 联合编程
-date: 2024-09-02 10:20:38
+title: C++ 与 lua 联合编程
+create-time: 2024-09-02 10:20:38
 tags: ["C++"]
 ---
 

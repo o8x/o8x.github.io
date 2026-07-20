@@ -1,6 +1,6 @@
 ---
-display-name: Laravel 之模型软删除
-date: 2017-10-21 14:01:13
+title: Laravel 之模型软删除
+create-time: 2017-10-21 14:01:13
 tags: ["php"]
 ---
 

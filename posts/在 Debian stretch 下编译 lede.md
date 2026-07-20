@@ -1,6 +1,6 @@
 ---
-display-name: 在 Debian 9.x(stretch) 下编译 Lede
-date: 2022-06-22 10:16:16
+title: 在 Debian 9.x(stretch) 下编译 Lede
+create-time: 2022-06-22 10:16:16
 tags: ["L"]
 ---
 
