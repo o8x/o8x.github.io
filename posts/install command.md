@@ -1,6 +1,6 @@
 ---
-display-name: cp 命令的高级替代品 install
-date: 2022-07-06 08:57:39
+title: cp 命令的高级替代品 install
+create-time: 2022-07-06 08:57:39
 tags: [ "Linux" ]
 ---
 

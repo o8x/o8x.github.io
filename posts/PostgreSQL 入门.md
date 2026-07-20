@@ -1,6 +1,6 @@
 ---
-display-name: PostgreSQL 入门
-date: 2020-10-28 11:35:37
+title: PostgreSQL 入门
+create-time: 2020-10-28 11:35:37
 tags: ["杂项"]
 ---
 

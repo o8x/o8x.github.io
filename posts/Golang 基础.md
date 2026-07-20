@@ -1,6 +1,6 @@
 ---
-display-name: golang 基础
-date: 2020-07-16 08:53:33
+title: golang 基础
+create-time: 2020-07-16 08:53:33
 tags: ["Golang"]
 ---
 

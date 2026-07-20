@@ -1,6 +1,6 @@
 ---
-display-name: laravel Carbon时间格式化
-date: 2017-08-19 15:40:25
+title: laravel Carbon时间格式化
+create-time: 2017-08-19 15:40:25
 tags: [ "php" ]
 ---
 

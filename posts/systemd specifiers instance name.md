@@ -1,6 +1,6 @@
 ---
-display-name: 从 systemctl 传递参数到 unit 文件
-date: 2023-01-09 11:34:54
+title: 从 systemctl 传递参数到 unit 文件
+create-time: 2023-01-09 11:34:54
 publish: true
 tags: [ "Linux" ]
 ---

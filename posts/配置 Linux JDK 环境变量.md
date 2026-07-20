@@ -1,6 +1,6 @@
 ---
-display-name: 配置 linux jdk 环境变量
-date: 2019-01-30 14:35:50
+title: 配置 linux jdk 环境变量
+create-time: 2019-01-30 14:35:50
 tags: [ "Linux" ]
 ---
 

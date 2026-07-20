@@ -1,6 +1,6 @@
 ---
-display-name: linux screen 命令
-date: 2018-08-21 17:07:08
+title: linux screen 命令
+create-time: 2018-08-21 17:07:08
 tags: [ "Linux" ]
 ---
 

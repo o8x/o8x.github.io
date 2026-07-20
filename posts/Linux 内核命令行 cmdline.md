@@ -1,7 +1,7 @@
 ---
-display-name: Linux 内核命令行 cmdline
+title: Linux 内核命令行 cmdline
 draft: false
-date: 2019-05-06 09:00:00
+create-time: 2019-05-06 09:00:00
 tags: ["Linux"]
 ---
 

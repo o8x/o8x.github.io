@@ -1,6 +1,6 @@
 ---
-display-name: linux xargs 命令
-date: 2018-05-06 21:04:58
+title: linux xargs 命令
+create-time: 2018-05-06 21:04:58
 tags: [ "Linux" ]
 ---
 

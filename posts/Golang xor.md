@@ -1,6 +1,6 @@
 ---
-display-name: Golang 中的 XOR 运算
-date: 2023-01-22 19:24:49
+title: Golang 中的 XOR 运算
+create-time: 2023-01-22 19:24:49
 tags: ["Golang"]
 ---
 
