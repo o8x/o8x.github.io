@@ -1,6 +1,6 @@
 ---
-display-name: 强制改变windows的文本格式为unix格式
-date: 2018-09-18 11:58:01
+title: 强制改变windows的文本格式为unix格式
+create-time: 2018-09-18 11:58:01
 tags: [ "Linux" ]
 ---
 

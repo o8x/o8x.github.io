@@ -1,6 +1,6 @@
 ---
-display-name: 基于 egg.js 接入jwt（json web token）认证
-date: 2020-06-15 16:20:41
+title: 基于 egg.js 接入jwt（json web token）认证
+create-time: 2020-06-15 16:20:41
 tags: ["杂项"]
 ---
 

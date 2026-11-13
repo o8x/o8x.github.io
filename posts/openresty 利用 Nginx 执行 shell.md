@@ -1,6 +1,6 @@
 ---
-display-name: openresty - 利用 nginx 执行 shell
-date: 2018-11-06 18:28:09
+title: openresty - 利用 nginx 执行 shell
+create-time: 2018-11-06 18:28:09
 tags: ["Linux"]
 ---
 > 主要使用 openresty 的lua-resty-shell模块
@@ -113,10 +113,10 @@ location = /api/git-hook {
 openresty -s reload
 ```
 
-![]({{ env.cdn_accelerate }}/2018/11/0cc9d452736ef6d4ca5cb7f646acae72.png)
+![](${IMAGE_CDN}/2018/11/0cc9d452736ef6d4ca5cb7f646acae72.png)
 
 # 可选步骤 -- 添加一个 webhook
 
-![]({{ env.cdn_accelerate }}/2018/11/7725d97f84ee2eb67af228217476b702.png)
+![](${IMAGE_CDN}/2018/11/7725d97f84ee2eb67af228217476b702.png)
 
 # 大功告成

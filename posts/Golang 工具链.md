@@ -1,6 +1,6 @@
 ---
-display-name: golang 工具链
-date: 2020-07-16 08:53:33
+title: golang 工具链
+create-time: 2020-07-16 08:53:33
 tags: ["Golang"]
 ---
 
@@ -17,4 +17,4 @@ $ godoc -http=:8080 -play
 using module mode; GOMOD=/private/tmp/goget/go.mod
 ```
 
-![image-20200717153517805]({{ env.cdn_accelerate }}/20200717153526.png)
+![image-20200717153517805](${IMAGE_CDN}/20200717153526.png)

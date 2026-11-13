@@ -1,7 +1,7 @@
 ---
-display-name: 使用curl跟踪链接，并打印头信息
+title: 使用curl跟踪链接，并打印头信息
 draft: false
-date: 2020-05-26 20:51:10
+create-time: 2020-05-26 20:51:10
 tags: [ "Linux" ]
 ---
 
@@ -20,7 +20,7 @@ tags: [ "Linux" ]
 
 HTTP/2 200
 server: nginx/1.14.1
-date: Tue, 26 May 2020 12:49:55 GMT
+create-time: Tue, 26 May 2020 12:49:55 GMT
 content-type: text/html
 content-length: 10024
 last-modified: Tue, 26 May 2020 11:45:15 GMT

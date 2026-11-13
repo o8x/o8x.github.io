@@ -1,6 +1,6 @@
 ---
-display-name: 使用SCL升级 gcc 版本
-date: 2022-06-16 14:24:55
+title: 使用SCL升级 gcc 版本
+create-time: 2022-06-16 14:24:55
 tags: [ "Linux" ]
 ---
 

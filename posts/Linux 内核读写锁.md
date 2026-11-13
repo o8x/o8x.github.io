@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核读写锁
-date: 2022-06-18 10:51:19
+title: Linux 内核读写锁
+create-time: 2022-06-18 10:51:19
 tags: ["Linux"]
 ---
 

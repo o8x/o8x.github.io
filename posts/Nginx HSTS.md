@@ -1,6 +1,6 @@
 ---
-display-name: nginx 开启强制 https
-date: 2018-06-14 22:27:30
+title: nginx 开启强制 https
+create-time: 2018-06-14 22:27:30
 tags: [ "Linux" ]
 ---
 

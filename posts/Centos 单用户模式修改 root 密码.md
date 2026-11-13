@@ -1,6 +1,6 @@
 ---
-display-name: Centos 单用户模式修改 root 密码
-date: 2020-08-30 09:39:34
+title: Centos 单用户模式修改 root 密码
+create-time: 2020-08-30 09:39:34
 tags: [ "Linux", "CentOS" ]
 ---
 

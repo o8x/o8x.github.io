@@ -1,6 +1,6 @@
 ---
-display-name: C++
-date: 2024-07-15 09:38:50
+title: C++
+create-time: 2024-07-15 09:38:50
 permalinkPattern: :year/:month/:day/:slug.html
 tags: ["C++"]
 ---
@@ -92,7 +92,7 @@ const int argc = 100;
 
 ### 关键字
 
-![]({{ env.cdn_accelerate }}/x/1721200844358.png)
+![](${IMAGE_CDN}/x/1721200844358.png)
 
 ### 查看数据类型的内存大小
 
@@ -3102,7 +3102,7 @@ class Foo final : public Bar {
 1. 在使用最上层类的数据时，因为中间的多次继承产生二义性
 2. 数据被继承多次，实际上只需要其中一份
 
-![]({{ env.cdn_accelerate }}/x/1721536022320.png)
+![](${IMAGE_CDN}/x/1721536022320.png)
 
 ### 多态
 

@@ -1,6 +1,6 @@
 ---
-display-name: 比较简单的通过源码安装和配置LNMP环境
-date: 2017-12-24 17:50:17
+title: 比较简单的通过源码安装和配置LNMP环境
+create-time: 2017-12-24 17:50:17
 tags: [ "Linux" ]
 ---
 

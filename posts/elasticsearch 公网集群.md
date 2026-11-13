@@ -1,6 +1,6 @@
 ---
-display-name: elasticsearch 公网集群
-date: 2018-09-19 11:51:36
+title: elasticsearch 公网集群
+create-time: 2018-09-19 11:51:36
 tags: [ "Linux" ]
 ---
 
@@ -44,5 +44,5 @@ discovery.zen.minimum_master_nodes: 1
 
 # 效果图
 
-![]({{ env.cdn_accelerate }}/2018/09/4837bf05dace79e4fcfae02fb50d1465.png)
-![]({{ env.cdn_accelerate }}/2018/09/40de87cda6468398075cfc123b65117e.png)
+![](${IMAGE_CDN}/2018/09/4837bf05dace79e4fcfae02fb50d1465.png)
+![](${IMAGE_CDN}/2018/09/40de87cda6468398075cfc123b65117e.png)

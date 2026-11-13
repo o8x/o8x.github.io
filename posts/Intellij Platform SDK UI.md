@@ -1,6 +1,6 @@
 ---
-display-name: Intellij Platform SDK UI
-date: 2020-11-21 11:54:40
+title: Intellij Platform SDK UI
+create-time: 2020-11-21 11:54:40
 tags: ["Intellij SDK"]
 ---
 
@@ -12,33 +12,33 @@ UI部分主要是由 swing 构成，所以最好先储备一些知识。甚至�
 
 新建一个包，然后在包名上右键单击，使用 New -> Swing UI Designer -> GUI Form 新建一个可视化的界面绘制器
 
-![image-20201225161202610]({{ env.cdn_accelerate }}/20201225161203.png)
+![image-20201225161202610](${IMAGE_CDN}/20201225161203.png)
 
 大概像这样
 
-![image-20201225162424706]({{ env.cdn_accelerate }}/20201225162426.png)
+![image-20201225162424706](${IMAGE_CDN}/20201225162426.png)
 
 ### 绘制界面
 
-接下来我们在IDEA中实现一个时钟，无论如何都居中并实时更新当前时间。![image-20201225164309836]({{ env.cdn_accelerate }}/20201225164311.png)
+接下来我们在IDEA中实现一个时钟，无论如何都居中并实时更新当前时间。![image-20201225164309836](${IMAGE_CDN}/20201225164311.png)
 
 首先从右侧选择JLabel，并在主JPanle任意位置点击，放置一个 Label用来显示时间，并将其改名为 timeBox。
 
-![image-20201225162610723]({{ env.cdn_accelerate }}/20201225162614.png)
+![image-20201225162610723](${IMAGE_CDN}/20201225162614.png)
 
 在Label的左右两侧，添加两个 HSpacer 实现左右居中
 
-![image-20201225162818091]({{ env.cdn_accelerate }}/20201225162820.png)
+![image-20201225162818091](${IMAGE_CDN}/20201225162820.png)
 
 在Label的上下两侧，添加两个 VSpacer 实现上下居中，默认为上下居中，但是为了实现可掌控的上下居中，我们也加上。最终效果如下图。
 
-![image-20201225162938300]({{ env.cdn_accelerate }}/20201225162939.png)
+![image-20201225162938300](${IMAGE_CDN}/20201225162939.png)
 
 ## 开始编程
 
 默认会生成两个文件，一个 .form 一个 .java。
 
-![image-20201225163214294]({{ env.cdn_accelerate }}/20201225163215.png)
+![image-20201225163214294](${IMAGE_CDN}/20201225163215.png)
 
 点击 .java，编程实现实时更新时间
 
@@ -117,13 +117,13 @@ public class TimeboxWindow implements ToolWindowFactory
 
 ## 效果图
 
-![2020-12-25 16.06.15]({{ env.cdn_accelerate }}/20201225160915.gif)
+![2020-12-25 16.06.15](${IMAGE_CDN}/20201225160915.gif)
 
 还可以通过修改 Font 选项，实现老年大字体模式。
 
-![image-20201225164209704]({{ env.cdn_accelerate }}/20201225164211.png)
+![image-20201225164209704](${IMAGE_CDN}/20201225164211.png)
 
-![image-20201225164222907]({{ env.cdn_accelerate }}/20201225164224.png)
+![image-20201225164222907](${IMAGE_CDN}/20201225164224.png)
 
 ## 后续
 

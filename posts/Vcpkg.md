@@ -1,6 +1,6 @@
 ---
-display-name: vcpkg
-date: 2024-08-12 12:34:34
+title: vcpkg
+create-time: 2024-08-12 12:34:34
 permalinkPattern: :year/:month/:day/:slug.html
 tags: ["C++"]
 ---

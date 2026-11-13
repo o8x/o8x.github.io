@@ -1,6 +1,6 @@
 ---
-display-name: SSH实现端口转发和SOCKS5代理
-date: 2022-06-24 13:54:50
+title: SSH实现端口转发和SOCKS5代理
+create-time: 2022-06-24 13:54:50
 tags: [ "Linux" ]
 ---
 

@@ -1,6 +1,6 @@
 ---
-display-name: 使用 egg.js 为 hexo 搭建后端，实现短链接服务
-date: 2020-05-27 20:27:49
+title: 使用 egg.js 为 hexo 搭建后端，实现短链接服务
+create-time: 2020-05-27 20:27:49
 ---
 
 ## 缘起
@@ -368,7 +368,7 @@ server {
 $ curl -I -L https://stdout.com.com/url/MjU=
 HTTP/2 302
 server: nginx/1.14.1
-date: Sun, 07 Jun 2020 12:34:08 GMT
+create-time: Sun, 07 Jun 2020 12:34:08 GMT
 content-type: text/html; charset=utf-8
 content-length: 229
 location: https://stdout.com.com/2020/05/27/%E4%B8%BAhexo%E5%88%B6%E4%BD%9C%E7%9F%AD%E9%93%BE%E6%9C%8D%E5%8A%A1/
@@ -413,6 +413,6 @@ let timer = setInterval(() => {
 
 > 效果演示
 
-<video src="{{ env.cdn_accelerate }}/Jietu20200607-205130-HD.mp4"
+<video src="${IMAGE_CDN}/Jietu20200607-205130-HD.mp4"
 style="max-width: 800px;min-width: 500px;"
 controls="controls" preload="preload"></video>

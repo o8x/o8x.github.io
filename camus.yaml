@@ -1,54 +1,54 @@
-camus:
-    source_dir: posts
-    assets_dir: assets
-    output:
-        meta: true
-        sitemap: true
-        filename_case: keep
-        dest_dir: html
-    deploy:
-        protocol: https://
-        domain_name: stdout.com.cn
-        path_prefix:
-    render:
-        theme: pixel
-        html_engine: default
-        markdown_engine: cmark-gfm
-        markdown_options:
-            - DEFAULT
-            - VALIDATE_UTF8
-            - SMART
-            - FOOTNOTES
-            - FULL_INFO_STRING
-            - TABLE_PREFER_STYLE_ATTRIBUTES
-            - UNSAFE
+public_url: 'https://stdout.com.cn'
+cdn_url: 'https://data-1252251443.cos.accelerate.myqcloud.com'
+auto_check_update: auto
+# 页面渲染配置
+theme: tomato                             # 加载 theme/name/*.html
+pdf:
+    toc:
+        index: true                         # 目录与书签标题带 "1. " 序号（正文标题不变）
+    engine: chrome                          # PDF 引擎：chromium/chrome/edge（Linux 自动按 PATH 查找）；disable 时不生成 PDF
+    sort: file_first                        # PDF 排序：file_first 文件在前、dir_first 目录在前、mixed 按路径字典序混排
+    build:
+        - --headless
+        - --enable-logging
+        - --no-pdf-header-footer
+        - --print-to-pdf={{dest_dir}}/index.pdf  # {{dest_dir}} 为 PDF 输出目录，可自定义文件名与位置
+    page: # 打印页面尺寸与边距，应用到 @page
+        size: A4
+        margin: 18mm 15mm
+        font_size: 10pt                     # 正文字号，仅支持 pt；其它字号按比例缩放
+        meta: [ "created-time" ]            # 标题下信息行：可选 words / read-times / created-time 任意组合；留空不显示
+html:
+    copy_pdf: false                         # 为 true 时把生成的 PDF 复制到 HTML 输出根目录
+    download_cover: false                    # 为 true 时 HTML 使用本地封面；PDF 始终会下载 URL 封面
+    build: # cmark-gfm 引擎参数
+        - DEFAULT                               # 默认选项，采用安全模式（过滤原始HTML和危险链接）
+        - VALIDATE_UTF8                         # 解析前验证 UTF-8 编码，将非法序列替换为替换字符 U+FFFD
+        - SMART                                 # 智能排版：将直引号转为弯引号，---转为长破折号，--转为短破折号
+        - FOOTNOTES                             # 解析脚注语法
+        - FULL_INFO_STRING                      # 代码块中保留完整信息字符串，并在独立的属性中提供
+        - TABLE_PREFER_STYLE_ATTRIBUTES         # 表格单元格对齐使用 style 属性而非 align 属性
+        - UNSAFE                                # 渲染原始 HTML 和不安全链接（如javascript:等），默认会过滤
+        #   - SOURCEPOS                         # 在所有块级元素上添加 data-sourcepos 属性，标明源位置
+        #   - HARDBREAKS                        # 将 softbreak（换行）渲染为强制换行标签 <br />
+        #   - NOBREAKS                          # 将 softbreak 渲染为空格（而不是换行）
+        #   - GITHUB_PRE_LANG                   # 代码块使用 GitHub 风格 <pre lang="x">
+        #   - LIBERAL_HTML_TAG                  # 放宽对内联 HTML 标签的解析，允许更自由的标签格式
+        #   - STRIKETHROUGH_DOUBLE_TILDE        # 仅当删除线由恰好2个波浪线包围时才解析，提高与 redcarpet 的兼容性
 
+# 友情链接
 friends:
+    -   title: Alex                                # 站点标题
+        link_url: https://github.com/o8x/camus     # 跳转地址
+        image_url: https://stdout.com.cn/logo.png  # 头像链接
+        desc: What's past is prologue.             # 简短描述
+
     -   title: 一言网
         link_url: https://hitokoto.cn
         image_url: https://i.loli.net/2020/02/07/kDIUWCQpKEdFTP8.png
         desc: 一言网（hitokoto.cn）创立于 2016 年，隶属于萌创团队，目前网站主要提供一句话服务。
 
-    -   title: 藤之青
-        link_url: https://i.a632079.me/?ref=stdout.com.cn
-        image_url: https://cdn.a632079.me/favicon.ico
-        desc: 亲眼所见，亦非真实
-
-catalog:
-    -   path: /
-        title: Alex
-        subtitle: What's past is prologue.
-        description: |
-            Changer pour que l’amour arrive
-            Changer pour que la passion nous délivre
-            Pour qu’un jour notre histoire
-            Soit écrite dans les livres
-
-    -   path: /Jiye-Street
-        transfers:
-            -   source: .
-                target: /novel/jiye-street
-        title: 极夜长街
-        subtitle: 光明与黑暗，一体两面。
-        description: |
-            人妖两族交界处有一条永远是黑夜的地下长街，被称为星垂市场。这里繁荣异常，人妖两族频繁进行货物与消息贸易，以及不为外人道的交易。
+build:
+    env:
+        ASSETS_CDN: https://data-1252251443.cos.ap-shanghai.myqcloud.com
+        IMAGE_CDN: https://data-1252251443.cos.ap-shanghai.myqcloud.com

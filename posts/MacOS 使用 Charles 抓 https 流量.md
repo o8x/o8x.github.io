@@ -1,6 +1,6 @@
 ---
-display-name: macos 使用 Charles 抓 https 流量
-date: 2024-09-10 14:29:00
+title: macos 使用 Charles 抓 https 流量
+create-time: 2024-09-10 14:29:00
 tags: ["杂项"]
 ---
 
@@ -12,25 +12,25 @@ tags: ["杂项"]
 
 点击 Charles 的 Proxy 菜单的 macOs Proxy 或 Proxy Setting 中的 macOS 来开启
 
-![image-20200718084432099]({{ env.cdn_accelerate }}/20200718084434.png)
+![image-20200718084432099](${IMAGE_CDN}/20200718084434.png)
 
 ## 配置 Proxy 端口和类型，使网卡转发流量到 Charles
 
 点击 Charles 的 Proxy 菜单的 Proxy Setting
 
-![image-20200718084348349]({{ env.cdn_accelerate }}/20200718084350.png)
+![image-20200718084348349](${IMAGE_CDN}/20200718084350.png)
 
 ## 调整 SSL Proxy Setting 监听 443 端口
 
 打开 Proxy 菜单的 SSL Proxy Settings，配置443 端口
 
-![image-20200718084739223]({{ env.cdn_accelerate }}/20200718084740.png)
+![image-20200718084739223](${IMAGE_CDN}/20200718084740.png)
 
 点击Add后即弹出下图的菜单
 
 Host 为 监听的域，*为全部监听，端口填写443（默认ssl端口），也可以是其它的自定义ssl端口
 
-![image-20200718084829025]({{ env.cdn_accelerate }}/20200718084830.png)
+![image-20200718084829025](${IMAGE_CDN}/20200718084830.png)
 
 ## 安装 SSL 根证书
 
@@ -38,15 +38,15 @@ Host 为 监听的域，*为全部监听，端口填写443（默认ssl端口）�
 
 点击 Charles 的菜单 Help
 
-![image-20200718085551567]({{ env.cdn_accelerate }}/20200718085553.png)
+![image-20200718085551567](${IMAGE_CDN}/20200718085553.png)
 
 理论上点击 Install Charles Root Certificate 即可，但是有些时候会直接报错。那么就使用 Save Charles Root Certificate 来保存 pem 证书到本地手动安装。
 
-![image-20200718085828453]({{ env.cdn_accelerate }}/20200718085829.png)
+![image-20200718085828453](${IMAGE_CDN}/20200718085829.png)
 
 打开 Keychain 程序，点击左侧的 Login，而后直接将该证书拖到右侧证书列表中即可。此时证书不受信任
 
-![image-20200718090047259]({{ env.cdn_accelerate }}/20200718090048.png)
+![image-20200718090047259](${IMAGE_CDN}/20200718090048.png)
 
 手机端抓包则同时在手机上配置 IOS或Mobile 证书，打开转发即可。
 
@@ -56,13 +56,13 @@ Host 为 监听的域，*为全部监听，端口填写443（默认ssl端口）�
 
 双击刚才安装的证书，将 Trust 中的 Use System Defaults 改为 Always Trust。然后按一下指纹，即可保存成功
 
-![image-20200718090326946]({{ env.cdn_accelerate }}/20200718090328.png)
+![image-20200718090326946](${IMAGE_CDN}/20200718090328.png)
 
 ## 重启 Charles
 
 经过测试，QQ音乐的https JSON已经正确的被Charles解析了。其它的当然也一样
 
-![image-20200718092046948]({{ env.cdn_accelerate }}/20200718092048.png)
+![image-20200718092046948](${IMAGE_CDN}/20200718092048.png)
 
 **注：** 如果抓取不正常，请检查代理配置是否正确
 
@@ -70,7 +70,7 @@ Host 为 监听的域，*为全部监听，端口填写443（默认ssl端口）�
 
 该配置会随着 Charles 的关闭而被关闭
 
-![image-20200718093015546]({{ env.cdn_accelerate }}/20200718093016.png)
+![image-20200718093015546](${IMAGE_CDN}/20200718093016.png)
 
 如果配置完还是有一部分应用的流量无法解析正确解析，则说明该应用可能使用了自签证书，无法抓取是正常的。
 

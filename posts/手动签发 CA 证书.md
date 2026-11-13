@@ -1,6 +1,6 @@
 ---
-display-name: 手动签发CA证书  
-date: 2018-08-16 20:27:14
+title: 手动签发CA证书  
+create-time: 2018-08-16 20:27:14
 tags: [ "Linux" ]
 ---
 

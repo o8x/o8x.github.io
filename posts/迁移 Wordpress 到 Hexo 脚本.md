@@ -1,6 +1,6 @@
 ---
-display-name: 迁移 wordpress 文章到 hexo
-date: 2020-05-26 10:54:06
+title: 迁移 wordpress 文章到 hexo
+create-time: 2020-05-26 10:54:06
 tags: ["杂项"]
 ---
 
@@ -37,8 +37,8 @@ $script   = <<<HTML
     for (let it of contents) {
         // 生成符合 hexo 格式的markdown，只能使用 + 拼接
         // 不能使用插值表达式，因为与php的模板变量会产生冲突
-        const content = '---\\ndisplay-name: ' + it.title 
-                        + '\\ndate: ' + it.date 
+        const content = '---\\ntitle: ' + it.title 
+                        + '\\ncreate-time: ' + it.date 
                         + '\\ntags: \\n---\\n\\n' 
                         + toMarkdown(it.content)
         

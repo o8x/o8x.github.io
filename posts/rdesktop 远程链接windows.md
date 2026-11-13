@@ -1,6 +1,6 @@
 ---
-display-name: rdesktop 远程链接windows
-date: 2018-06-21 15:51:09
+title: rdesktop 远程链接windows
+create-time: 2018-06-21 15:51:09
 tags: [ "Linux" ]
 ---
 
@@ -44,12 +44,12 @@ tags: [ "Linux" ]
 
 1. **配置允许远程协助**
 
-   ![]({{ env.cdn_accelerate }}/2018/06/607928d78a773897bbb9ab329e29a76c.png)
+   ![](${IMAGE_CDN}/2018/06/607928d78a773897bbb9ab329e29a76c.png)
 
 1. **编辑组策略配置允许空密码登录 ，不使用空密码可忽略**
 
     - 打开组策略
-      ![]({{ env.cdn_accelerate }}/2018/06/e074991f7fb7e3643ded0007885456e4.png)
+      ![](${IMAGE_CDN}/2018/06/e074991f7fb7e3643ded0007885456e4.png)
 
     - 禁用空密码只能进行控制台登录
-      ![]({{ env.cdn_accelerate }}/2018/06/c95416457271e29e61e24a8e00925232.png)
+      ![](${IMAGE_CDN}/2018/06/c95416457271e29e61e24a8e00925232.png)

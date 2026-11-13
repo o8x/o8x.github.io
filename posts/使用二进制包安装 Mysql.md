@@ -1,6 +1,6 @@
 ---
-display-name: 使用二进制包安装mysql
-date: 2018-03-18 20:55:10
+title: 使用二进制包安装mysql
+create-time: 2018-03-18 20:55:10
 tags: [ "Linux" ]
 ---
 
@@ -76,8 +76,8 @@ sudo su
 
 netstat -apn | grep 3306
 
-![]({{ env.cdn_accelerate }}/2018/03/fb9480d7b9bd2e998ca7911b7008086c.png)
+![](${IMAGE_CDN}/2018/03/fb9480d7b9bd2e998ca7911b7008086c.png)
 
 #### 启动
 
-![]({{ env.cdn_accelerate }}/2018/03/483d86ac3e7e487d7041ddef3bb8972f.png)
+![](${IMAGE_CDN}/2018/03/483d86ac3e7e487d7041ddef3bb8972f.png)

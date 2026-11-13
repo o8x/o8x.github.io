@@ -1,12 +1,12 @@
 ---
-display-name: PlantUML
-date: 2019-05-05 14:24:14
+title: PlantUML
+create-time: 2019-05-05 14:24:14
 tags: ["杂项"]
 ---
 
 *序列图*
 
-![]({{ env.cdn_accelerate }}/2020/05-26-outofstack.png)
+![](${IMAGE_CDN}/2020/05-26-outofstack.png)
 
 > 代码以及说明
 

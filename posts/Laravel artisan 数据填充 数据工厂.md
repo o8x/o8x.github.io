@@ -1,6 +1,6 @@
 ---
-display-name: Laravel artisan 数据填充 数据工厂
-date: 2017-08-19 17:54:52
+title: Laravel artisan 数据填充 数据工厂
+create-time: 2017-08-19 17:54:52
 tags: [ "php", "laravel" ]
 ---
 
@@ -30,4 +30,4 @@ Tinker 中调用
 factory(App\Post::class ,200)->make();
 ```
 
-![]({{ env.cdn_accelerate }}/2017/08/2017-08-19-17-52-46-的屏幕截图.png)
+![](${IMAGE_CDN}/2017/08/2017-08-19-17-52-46-的屏幕截图.png)

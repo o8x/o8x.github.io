@@ -1,6 +1,6 @@
 ---
-display-name: 使用 sysbench 进行 mysql 基准测试
-date: 2019-05-17 10:22:35
+title: 使用 sysbench 进行 mysql 基准测试
+create-time: 2019-05-17 10:22:35
 tags: [ "Linux" ]
 ---
 

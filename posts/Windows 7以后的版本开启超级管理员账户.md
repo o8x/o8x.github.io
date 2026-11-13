@@ -1,6 +1,6 @@
 ---
-display-name: windows7以后的版本开启超级管理员账户
-date: 2018-07-10 13:39:54
+title: windows7以后的版本开启超级管理员账户
+create-time: 2018-07-10 13:39:54
 tags: ["杂项"]
 ---
 

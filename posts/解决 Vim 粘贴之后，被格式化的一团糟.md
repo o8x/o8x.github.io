@@ -1,6 +1,6 @@
 ---
-display-name: 解决vim粘贴之后，被格式化的一团糟
-date: 2018-07-12 16:03:08
+title: 解决vim粘贴之后，被格式化的一团糟
+create-time: 2018-07-12 16:03:08
 tags: [ "Linux" ]
 ---
 

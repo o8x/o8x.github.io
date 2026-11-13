@@ -5,24 +5,9 @@ on:
         branches: [ "main" ]
     pull_request:
         branches: [ "main" ]
-    workflow_dispatch:
-        inputs:
-            type:
-                description: 'Camus type'
-                required: true
-                default: 'release'
-                type: choice
-                options:
-                    - test
-                    - release
-
-            version:
-                description: 'Camus version'
-                required: false
-                type: string
-                default: 'v11.0.0'
 
 permissions:
+    contents: write
     pages: write
     id-token: write
 
@@ -32,54 +17,69 @@ concurrency:
 
 jobs:
     build:
-        runs-on: ubuntu-24.04
-        container:
-            image: docker.io/ubuntu:24.04
+        runs-on: macos-15
         steps:
-            -   uses: actions/checkout@v4
-            -   name: Install dependencies
-                run: |
-                    apt update -y
-                    apt install -y curl jq unzip libarchive-dev
+            -   name: Checkout
+                uses: actions/checkout@v4
 
-            -   name: Install Camus-release
-                env:
-                    CAMUS_VERSION: ${{ github.event.inputs.version || 'v11.0.0' }}
-                if: github.event.inputs.type != 'test'
+            -   name: Install latest camus
                 run: |
-                    curl -Lo camus.deb https://github.com/o8x/camus/releases/download/${CAMUS_VERSION}/camus-${CAMUS_VERSION}_linux6.17.0-1020-azure-x86_64.deb
-                    dpkg -i camus.deb
+                    curl -fsSL https://raw.githubusercontent.com/the-writer/camus/main/scripts/install.sh | bash
+                    camus -v
 
-            -   name: Install Camus-test
-                if: github.event.inputs.type == 'test'
+            -   name: Install fonts
                 run: |
-                    RUN_ID=$(curl -s -H "Authorization: Bearer ${{ github.token }}" \
-                        "https://api.github.com/repos/o8x/camus/actions/runs?status=success&per_page=1" \
-                        | jq -r '.workflow_runs[0].id')
-                    DOWNLOAD_URL=$(curl -s -H "Authorization: Bearer ${{ github.token }}" \
-                        "https://api.github.com/repos/o8x/camus/actions/runs/$RUN_ID/artifacts" \
-                        | jq -r '.artifacts[1].archive_download_url')
-                    
-                    echo "Camus from action=https://github.com/o8x/camus/actions/runs/$RUN_ID file=$DOWNLOAD_URL"
-                
-                    curl -L -o camus.zip -H "Authorization: Bearer ${{ github.token }}" "$DOWNLOAD_URL"
-                    unzip camus.zip && rm -f camus.zip 
-                    dpkg -i *.deb
+                    brew install --cask \
+                        font-noto-sans \
+                        font-noto-serif \
+                        font-noto-sans-cjk-sc \
+                        font-noto-serif-cjk-sc
 
-            -   name: Build
+            -   name: Ensure Chrome
                 run: |
-                    echo "GITHUB_ACTION_URL=https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}|g" >> .env
-                    camus -iI
-                    camus -d
+                    chrome="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+                    if [ ! -x "$chrome" ]; then
+                        brew install --cask google-chrome
+                    fi
+                    test -x "$chrome"
 
             -   name: Setup Pages
+                id: pages
+                if: github.event_name == 'push'
                 uses: actions/configure-pages@v5
 
-            -   name: Upload artifact
+            -   name: Build site
+                env:
+                    CAMUS_AUTO_CHECK_UPDATE: "false"
+                    CAMUS_PUBLIC_URL: ${{ steps.pages.outputs.base_url }}
+                run: |
+                    camus --build
+                    test -s dist/pdf/index.pdf
+
+            -   name: Create release
+                if: github.event_name == 'push'
+                env:
+                    GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                run: |
+                    tag="build-$(date -u +%Y%m%d-%H%M%S)"
+                    gh release create "$tag" dist/pdf/index.pdf \
+                        --title "$tag" \
+                        --notes "Automated build of ${{ github.sha }}"
+
+            -   name: Upload Pages artifact
+                if: github.event_name == 'push'
                 uses: actions/upload-pages-artifact@v3
                 with:
-                    path: './html'
+                    path: dist/html
 
+    deploy:
+        if: github.event_name == 'push'
+        needs: build
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        steps:
             -   name: Deploy to GitHub Pages
                 id: deployment
                 uses: actions/deploy-pages@v5

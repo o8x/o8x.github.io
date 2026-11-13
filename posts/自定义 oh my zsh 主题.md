@@ -1,6 +1,6 @@
 ---
-display-name: 自定义 oh my zsh 主题
-date: 2019-04-26 14:10:12
+title: 自定义 oh my zsh 主题
+create-time: 2019-04-26 14:10:12
 tags: [ "Linux" ]
 ---
 
@@ -10,14 +10,14 @@ tags: [ "Linux" ]
 
 去掉这个换行
 
-![]({{ env.cdn_accelerate }}/2019/04/c02d02ef178839007b8d7e9a57e921c1.png)
+![](${IMAGE_CDN}/2019/04/c02d02ef178839007b8d7e9a57e921c1.png)
 
 ### 编辑 ys.zsh-theme
 
-![]({{ env.cdn_accelerate }}/2019/04/4646c5f8698ef7a32870d859daa67d73.png)
+![](${IMAGE_CDN}/2019/04/4646c5f8698ef7a32870d859daa67d73.png)
 
 删掉 PROMPT 第一行自带的换行并保存重新登录 zsh
 
-![]({{ env.cdn_accelerate }}/2019/04/7254c905a66252cf4a8a4f9f74e022e0.png)
+![](${IMAGE_CDN}/2019/04/7254c905a66252cf4a8a4f9f74e022e0.png)
 
-![]({{ env.cdn_accelerate }}/2019/04/d3939321c43a978095cdbed9c5f41efb.png)
+![](${IMAGE_CDN}/2019/04/d3939321c43a978095cdbed9c5f41efb.png)

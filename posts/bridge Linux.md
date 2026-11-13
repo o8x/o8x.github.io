@@ -1,6 +1,6 @@
 ---
-display-name: 简单的在 Linux 下配置网桥
-date: 2022-08-04 09:31:01
+title: 简单的在 Linux 下配置网桥
+create-time: 2022-08-04 09:31:01
 tags: [ "Linux" ]
 ---
 

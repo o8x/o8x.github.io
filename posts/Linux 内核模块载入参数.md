@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核模块载入参数
-date: 2022-06-18 11:51:03
+title: Linux 内核模块载入参数
+create-time: 2022-06-18 11:51:03
 tags: ["Linux"]
 ---
 

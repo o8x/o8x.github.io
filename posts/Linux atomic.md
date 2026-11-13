@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核中的原子操作
-date: 2022-06-18 10:21:53
+title: Linux 内核中的原子操作
+create-time: 2022-06-18 10:21:53
 tags: ["Linux"]
 ---
 

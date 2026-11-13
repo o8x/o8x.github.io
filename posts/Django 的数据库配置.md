@@ -1,6 +1,6 @@
 ---
-display-name: Django的数据库配置
-date: 2017-12-21 10:44:13
+title: Django的数据库配置
+create-time: 2017-12-21 10:44:13
 tags: [ "Python", "Django" ]
 ---
 
@@ -39,7 +39,7 @@ DATABASES = {
 
 *模型文件*
 
-![]({{ env.cdn_accelerate }}/2017/12/13608cadb9e6347834103cefbd33deb3.png)
+![](${IMAGE_CDN}/2017/12/13608cadb9e6347834103cefbd33deb3.png)
 
 **使用模型文件**
 

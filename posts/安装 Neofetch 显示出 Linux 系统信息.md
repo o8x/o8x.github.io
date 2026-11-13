@@ -1,6 +1,6 @@
 ---
-display-name: 安装neofetch显示出linux系统信息
-date: 2018-03-06 18:36:42
+title: 安装neofetch显示出linux系统信息
+create-time: 2018-03-06 18:36:42
 tags: [ "Linux" ]
 ---
 
@@ -14,7 +14,7 @@ $ sudo dnf -y install neofetch
 
 # 运行neofetch
 
-![]({{ env.cdn_accelerate }}/2018/03/5f52273b94c4fb1d855d098977c254b6.png)
+![](${IMAGE_CDN}/2018/03/5f52273b94c4fb1d855d098977c254b6.png)
 
 # 显示图形化的LOGO
 

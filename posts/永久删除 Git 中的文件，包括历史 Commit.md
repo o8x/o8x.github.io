@@ -1,6 +1,6 @@
 ---
-display-name: 永久删除Git中的文件，包括历史commit
-date: 2020-05-26 11:29:14
+title: 永久删除Git中的文件，包括历史commit
+create-time: 2020-05-26 11:29:14
 tags: ["git"]
 ---
 

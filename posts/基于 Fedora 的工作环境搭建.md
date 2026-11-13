@@ -1,6 +1,6 @@
 ---
-display-name: 基于 Fedora 的工作环境搭建
-date: 2018-07-09 14:28:24
+title: 基于 Fedora 的工作环境搭建
+create-time: 2018-07-09 14:28:24
 tags: [ "Linux" ]
 ---
 
@@ -10,7 +10,7 @@ tags: [ "Linux" ]
 > 本文是作者换电脑 ，重装系统的记录
 > 本文基于fedora28
 
-![clipboard.png]({{ env.cdn_accelerate }}/2022/3842505885-5b4597f0aad76_fix732.webp)
+![clipboard.png](${IMAGE_CDN}/2022/3842505885-5b4597f0aad76_fix732.webp)
 
 # 安装fedora
 
@@ -26,7 +26,7 @@ tags: [ "Linux" ]
 rpm -qa | grep rhy | xargs -I {} sudo yum -y remove {}
 ```
 
-![1531216030383]({{ env.cdn_accelerate }}/resource/1531216030383.png)
+![1531216030383](${IMAGE_CDN}/resource/1531216030383.png)
 
 - libreofficce 这是一个强大的Office软件，但是对windws的兼容度不是很好 ，稍后我们用WPS替代它
 
@@ -34,7 +34,7 @@ rpm -qa | grep rhy | xargs -I {} sudo yum -y remove {}
 rpm -qa | grep libreoffice | xargs -I {} sudo yum -y remove {}
 ```
 
-![1531216427069]({{ env.cdn_accelerate }}/resource/1531216427069.png)
+![1531216427069](${IMAGE_CDN}/resource/1531216427069.png)
 
 
 
@@ -44,7 +44,7 @@ rpm -qa | grep libreoffice | xargs -I {} sudo yum -y remove {}
 
 ### 快捷键
 
-![1531216495033]({{ env.cdn_accelerate }}/resource/1531216495033.png)
+![1531216495033](${IMAGE_CDN}/resource/1531216495033.png)
 
 ### 更换软件源
 
@@ -96,7 +96,7 @@ wget http://wdl1.cache.wps.cn/wps/download/Linux/unstable/wps-office-8.1.0.3724-
 
 > 我们发现rpm安装会依赖检测失败 ，但是我们不可能手动来搞，于是我们就使用yum
 
-![1531217246227]({{ env.cdn_accelerate }}/resource/1531217246227.png)
+![1531217246227](${IMAGE_CDN}/resource/1531217246227.png)
 
 - 用yum安装wps
 
@@ -104,13 +104,13 @@ wget http://wdl1.cache.wps.cn/wps/download/Linux/unstable/wps-office-8.1.0.3724-
 sudo yum -y install ./wps-office-8.1.0.3724-0.1.b1p2.i686.rpm
 ```
 
-![1531220136418]({{ env.cdn_accelerate }}/resource/1531220136418.png)
+![1531220136418](${IMAGE_CDN}/resource/1531220136418.png)
 
 
 - 安装在此处打开终端
 
 - > 可以在文件夹里使用此处打开终端
-，重启后生效![1531284416455]({{ env.cdn_accelerate }}/resource/1531284416455.png)
+，重启后生效![1531284416455](${IMAGE_CDN}/resource/1531284416455.png)
 
 ```shell
 sudo yum install nautilus-open-terminal
@@ -151,7 +151,7 @@ Name[zh_CN]=Typora
 
 4. 然后就可以在应用列表中发现：
 
-![1531220806137]({{ env.cdn_accelerate }}/resource/1531220806137.png)
+![1531220806137](${IMAGE_CDN}/resource/1531220806137.png)
 
 - 安装UML建模工具
 
@@ -185,7 +185,7 @@ sudo su
 
 - 点击终端的编辑 首选项 ，可以配置一些基础的配置
 
-![1531221062615]({{ env.cdn_accelerate }}/resource/1531221062615.png)
+![1531221062615](${IMAGE_CDN}/resource/1531221062615.png)
 
 # 更新系统
 
@@ -232,11 +232,11 @@ sudo dnf -y update
 sudo dnf -y install steam
 ```
 
-![1531222727615]({{ env.cdn_accelerate }}/resource/1531222727615.png)
+![1531222727615](${IMAGE_CDN}/resource/1531222727615.png)
 
 - 然后输入steam，我们就可以看到这个
 
-![1531222761068]({{ env.cdn_accelerate }}/resource/1531222761068.png)
+![1531222761068](${IMAGE_CDN}/resource/1531222761068.png)
 
 # 安装其他软件
 
@@ -317,21 +317,21 @@ make && make install
 
 - 找到刚才安装的 gnome-tweak-tool ，它长这样 ，打开
 
-![1531280064808]({{ env.cdn_accelerate }}/resource/1531280064808.png)
+![1531280064808](${IMAGE_CDN}/resource/1531280064808.png)
 
 - 打开允许用户设置主题
 
-![1531280170920]({{ env.cdn_accelerate }}/resource/1531280170920.png)
+![1531280170920](${IMAGE_CDN}/resource/1531280170920.png)
 
 - **配置主题**
 
 > 设置成这样。
 
-![1531280270839]({{ env.cdn_accelerate }}/resource/1531280270839.png)
+![1531280270839](${IMAGE_CDN}/resource/1531280270839.png)
 
 - **然后你会发现你的fedora , 变成了这样**
 
-![1531280360776]({{ env.cdn_accelerate }}/resource/1531280360776.png)
+![1531280360776](${IMAGE_CDN}/resource/1531280360776.png)
 
 # 安装Java
 

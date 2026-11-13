@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核模块配置自动装载
-date: 2022-06-18 11:48:01
+title: Linux 内核模块配置自动装载
+create-time: 2022-06-18 11:48:01
 tags: ["Linux"]
 ---
 

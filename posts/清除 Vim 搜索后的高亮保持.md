@@ -1,6 +1,6 @@
 ---
-display-name: 清除vim搜索后的高亮保持
-date: 2018-05-29 14:09:39
+title: 清除vim搜索后的高亮保持
+create-time: 2018-05-29 14:09:39
 tags: [ "Linux" ]
 ---
 

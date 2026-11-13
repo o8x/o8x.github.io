@@ -1,6 +1,6 @@
 ---
-display-name: kubernetes  
-date: 2024-06-02 15:59:10
+title: kubernetes  
+create-time: 2024-06-02 15:59:10
 tags: ["Linux"]
 ---
 
@@ -18,7 +18,7 @@ tags: ["Linux"]
 - 网络，作为唯一的集群 IP 地址
 - 有关每个容器如何运行的信息，例如容器镜像版本或要使用的特定端口
 
-![]({{ env.cdn_accelerate }}/x/1717317988127.png)
+![](${IMAGE_CDN}/x/1717317988127.png)
 
 ### Node
 
@@ -29,7 +29,7 @@ tags: ["Linux"]
 - Kubelet，负责 Kubernetes 控制面和节点之间通信的进程；它管理机器上运行的 Pod 和容器。
 - 容器运行时（如 Docker）负责从镜像仓库中提取容器镜像、解压缩容器以及运行应用。
 
-![]({{ env.cdn_accelerate }}/x/1717318226323.png)
+![](${IMAGE_CDN}/x/1717318226323.png)
 
 ### ReplicaSet
 
@@ -78,7 +78,7 @@ Gateway API 具有三种稳定的 API 类别：
 > Gateway： 定义流量处理基础设施（例如云负载均衡器）的一个实例。
 > HTTPRoute： 定义特定于 HTTP 的规则，用于将流量从网关监听器映射到后端网络端点的表示。 这些端点通常表示为 Service。
 
-![]({{ env.cdn_accelerate }}/x/1718381504292.png)
+![](${IMAGE_CDN}/x/1718381504292.png)
 
 简而言之就是对协议层进行了更高级别抽象 Ingress，以支持不同协议。
 
@@ -104,7 +104,7 @@ Secret 本质上只是 base64(ConfigMap)，如果不进行 RBAC 和 静态加密
 
 本文不使用 minikube 而是以 Docker Desktop 中的 kubernetes 为例。如图所示，勾选 Enable kubernetes 并 Apply & Restart 即可在本地开启单节点的 k8s 集群。
 
-![]({{ env.cdn_accelerate }}/x/1717315248885.png)
+![](${IMAGE_CDN}/x/1717315248885.png)
 
 ### kubectl
 
@@ -358,7 +358,7 @@ Kubernetes Service 定义了Pod的逻辑集合和访问协议，实现Pod间的�
 
 某些Service用例不需要定义selector，允许手动映射到特定端点或使用ExternalName类型。
 
-![]({{ env.cdn_accelerate }}/x/1717322022724.png)
+![](${IMAGE_CDN}/x/1717322022724.png)
 
 列举当前集群中的 Service
 
@@ -717,7 +717,7 @@ spec:
         matchLabels:
             app: http-server
     strategy:
-        rollingUpdate:
+        rollingUpcreate-time:
             maxSurge: 25%
             maxUnavailable: 25%
         type: RollingUpdate

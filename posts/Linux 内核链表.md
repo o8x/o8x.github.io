@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核链表"
-date: 2022-06-18 11:04:50
+title: Linux 内核链表"
+create-time: 2022-06-18 11:04:50
 tags: ["Linux"]
 ---
 

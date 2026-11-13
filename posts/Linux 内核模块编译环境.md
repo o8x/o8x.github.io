@@ -1,6 +1,6 @@
 ---
-display-name: Linux 内核模块编译环境配置
-date: 2022-06-18 13:48:04
+title: Linux 内核模块编译环境配置
+create-time: 2022-06-18 13:48:04
 tags: ["Linux"]
 ---
 

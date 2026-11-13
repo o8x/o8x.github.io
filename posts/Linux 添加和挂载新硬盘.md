@@ -1,6 +1,6 @@
 ---
-display-name: linux 添加和挂载新硬盘
-date: 2018-09-15 14:46:06
+title: linux 添加和挂载新硬盘
+create-time: 2018-09-15 14:46:06
 tags: [ "Linux" ]
 ---
 
@@ -10,7 +10,7 @@ tags: [ "Linux" ]
 fdisk -l
 ```
 
-![]({{ env.cdn_accelerate }}/2018/09/77415dfcd41b4d967493b966bf711e35.png)
+![](${IMAGE_CDN}/2018/09/77415dfcd41b4d967493b966bf711e35.png)
 
 ### 创建分区
 
@@ -44,7 +44,7 @@ Ignore # 忽略
 $ fdisk -l
 ```
 
-![]({{ env.cdn_accelerate }}/2018/09/c11d12769916c409184102da4964fd0d.png)
+![](${IMAGE_CDN}/2018/09/c11d12769916c409184102da4964fd0d.png)
 
 ### 挂载
 
@@ -68,7 +68,7 @@ mount /dev/sdb1 /es-data
 df -h
 ```
 
-![]({{ env.cdn_accelerate }}/2018/09/03680ab8fee28662dab6b63d5c283f26.png)
+![](${IMAGE_CDN}/2018/09/03680ab8fee28662dab6b63d5c283f26.png)
 
 #### 设置开机自动挂载
 

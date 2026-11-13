@@ -1,6 +1,6 @@
 ---
-display-name: 解决mysql 5.7+ 1055 异常
-date: 2018-10-22 17:05:32
+title: 解决mysql 5.7+ 1055 异常
+create-time: 2018-10-22 17:05:32
 tags: [ "mysql" ]
 ---
 

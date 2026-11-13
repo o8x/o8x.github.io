@@ -1,7 +1,7 @@
 ---
-display-name: 本站的git钩子与自动部署脚本
+title: 本站的git钩子与自动部署脚本
 draft: false
-date: 2020-06-22 12:44:33
+create-time: 2020-06-22 12:44:33
 tags: [ "Linux" ]
 ---
 
